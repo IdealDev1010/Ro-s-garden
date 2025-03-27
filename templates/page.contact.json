@@ -1,0 +1,53 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title1": "FOR WHOLESALE INQUIRIES",
+        "title2": "HAVE A QUESTION?",
+        "text1": "<a href=\"mailto:info@ros-garden.com\" title=\"mailto:info@ros-garden.com\">info@ros-garden.com</a>",
+        "text2": "For questions or comments about our products and services, please do get in touch. We love to hear from our clients! ",
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "ee866f23-d88c-4fa3-b00b-3f86dcd46b85": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Ilustracion_sin_titulo_d20bd760-ac5b-4874-8fae-7f4b3c32d001.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "ee866f23-d88c-4fa3-b00b-3f86dcd46b85"
+  ]
+}

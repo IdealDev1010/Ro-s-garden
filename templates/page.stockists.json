@@ -1,0 +1,1937 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "header-stockists",
+      "settings": {}
+    },
+    "debf0e29-98c7-45ff-a5b7-4dd4293d71f8": {
+      "type": "stockists-country",
+      "settings": {
+        "title": "United States",
+        "id_country": "usa",
+        "id_country2": "Alabama,Antigua,Connecticut,Delaware,Florida,Georgia,Idaho,Indiana,Kentucky,Maine,Maryland,Massachusetts,Minnesota,Mississippi,New Hampshire,New Jersey,New York,North Carolina,Ohio,Pennsylvania,Rhode Island,South Carolina,Tennessee,Texas,Virginia,Washington DC,West Virginia,Wisconsin,Puerto Rico,Virgin Islands,"
+      }
+    },
+    "94c5f6c7-bbe1-4c4b-a7f2-e0a18f96a6d2": {
+      "type": "stockists-country",
+      "settings": {
+        "title": "International",
+        "id_country": "in",
+        "id_country2": "Mexico,Canada,Bahamas,Turks and Caicos Islands,"
+      }
+    },
+    "4442634b-b556-401f-a07a-0448b055993a": {
+      "type": "stockists-store",
+      "blocks": {
+        "template--17102838235455__4442634b-b556-401f-a07a-0448b055993a-16778732482673e5a6-0": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "OUTPOST",
+            "store_address": "<p>2732 CAHABA ROAD, BIRMINGHAM, 35223</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "e2065478-8885-4452-8240-b77912c71547": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "Amano",
+            "store_address": "<p>281 RELE STREET, BIRMINGHAM, 35223</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "cb6e2b73-a7e4-4b1d-972f-0548e2af41f1": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "Amano",
+            "store_address": "<p>Birmingham, AL United States Bill To: 281 Rele Street, Birmingham, 35223</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "4209ef5d-3705-4bd4-8e2c-a3d164e4542b": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "Stella blu",
+            "store_address": "<p>2730 CAHABA ROAD, BIRMINGHAM, 35223</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "3f4deaaa-2d84-4c3f-b4a8-d2ab9100ee89": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "CANTERBURY OF CRESTLINE",
+            "store_address": "<p>112 EUCLID AVENUE, BIRMINGHAM, 35213</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "fa3df600-eba8-4d44-9321-d2e445757038": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "MONKEE'S OF HUNTSVILLE",
+            "store_address": "<p>933 BOB WALLACE AVE SW, HUNTSVILLE, 35801</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "36cc2223-163f-448e-9c20-21da5327a049": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "MONKEES OF MOUNTAIN BROOK",
+            "store_address": "<p>2006 CAHABA RD, MOUNTAIN BROOK, 35223</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "2341d149-5f95-40b3-a987-924be9a4bd20": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "MONKEE'S OF MOUNTAIN BROOK,",
+            "store_address": "<p>2006 CAHABA ROAD, MOUNTAIN BROOK, 35223</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "8d51b83e-4c4b-4011-ae77-97293827f39c": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "Mint Julep",
+            "store_address": "<p>1627 Opelika Road Unit 30, Auburn, 36830</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "6c0294e1-9b20-4207-af8b-8e68fc5148b8": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Alabama",
+            "store_name": "Whimsy Greenville De",
+            "store_address": "<p>2822 Howard St. S, Homewood, 35209</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "46f8d4da-242c-4263-8e44-0462351a1d0e": {
+          "type": "store",
+          "disabled": true,
+          "settings": {
+            "id_place_store": "California",
+            "store_name": "ESPERANZA RESORT",
+            "store_address": "<p>CARRETERA TRANSPENINSULAR KM 7 MANZANA 10 PUNTA BALLENA, CABO SAN LUCAS, BAJA CALIFORNIA, 23410</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "7655ebdd-2b43-45cb-9127-2e726d5c5463": {
+          "type": "store",
+          "disabled": true,
+          "settings": {
+            "id_place_store": "California",
+            "store_name": "CHILENO BAY RESORT",
+            "store_address": "<p>CARRETERA TRANSPENINSULAR SAN JOSE-SAN LUCAS KM. 15 PLAYA CHILENO BAY, CABO SAN LUCAS, BAJA CALIFORNIA, 23410</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "df507a5f-13d8-4c8a-b5be-24de30a2860c": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Delaware",
+            "store_name": "Peter Kate",
+            "store_address": "<p>2303 Concord Pike, Wilmington, 19803</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "51a02691-9a11-4ed3-b843-163c2063b0d1": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Delaware",
+            "store_name": "Sole",
+            "store_address": "<p>110 Rehoboth Avenue, Rehoboth Beach, 19971</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "6108d7f5-3bf3-42bd-a13b-2e0188cc945f": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Gasparilla Inn",
+            "store_address": "<p>500 Palm Avenue, Boca Grande, 33921</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "551142f0-518b-4e81-b37c-2d1394277e52": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "C.Orrico",
+            "store_address": "<p>336 South County Road, Palm Beach, 33480</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "65bcfd7d-8989-43e8-8df5-1a1e8c3adeca": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Periwinkle",
+            "store_address": "<p>339 E Atlantic Avenue, Delray Beach, 33483</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "21f53965-cf0f-4d48-a662-bc9e5faa57b8": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Matilda's",
+            "store_address": "<p>15 SW Flager Avenue, Stuart, 34994</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "2f14729f-a9de-437b-9fa9-3f0affd98a7f": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "A Mano Naples",
+            "store_address": "<p>301 13th Avenue S,Naples, 34102</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "8f194a4d-6153-43b2-a9cb-e852a67b4e44": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Morley",
+            "store_address": "<p>1303 3rd St South, Naples, 34102</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "f577cb0e-1ad5-407f-9883-04cefc0a6b90": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Tootsies",
+            "store_address": "<p>39 SW Flagler Ave, Stuart, 34994</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "f08609bc-aaf4-48eb-bac6-0205f8f4923b": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Siegel's Clothing",
+            "store_address": "<p>330 S Park Avenue, Winter Park, 32789</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "acecc1bd-4904-461a-99be-c2d29d9fc744": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Jupiter Island Club",
+            "store_address": "<p>1 Estrada Road, Hobe Sound, 33455</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "a556a0c6-be76-490d-a3d9-439867363d70": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "The Island Store",
+            "store_address": "<p>1535 SOUTH PERIMETER ROAD, HANGER 36A, Fort Lauderdale, 33309</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "b7fec579-9740-4d5d-9b1c-d2090978c034": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Everything But Water",
+            "store_address": "<p>5337 Millenia Lakes Blvd, Orlando, 32839</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "e6a0a2d2-026a-4e7a-a8bb-cbf19d2a924e": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Grace Bay Club",
+            "store_address": "<p>9999 NW 89th Ave Bay #20, Medely, 33178</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "83a0171d-ae65-4b4f-b8ca-971a63f2beee": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Ponte Vedra",
+            "store_address": "<p>200 Ponte Vedra BLVD, Ponte Vedra, 32082 </p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "5d634727-b586-4829-96bd-d394e1b27c0a": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Monkee's of Naples",
+            "store_address": "<p>4320 Gulf Shore Blvd N, Naples, 34103</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "792c8942-25b4-43c1-90f2-4a2ea4341197": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Beach Folly",
+            "store_address": "<p>6 Watercolor Blvd S. #101B, Watercolor, 32458</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "af263a52-6638-4d37-88b2-3889d9f7b07d": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Half Moon",
+            "store_address": "<p>11401 NW 107 Street, Medely, 33178</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "1991adf0-9c3e-4bf5-887f-571524ba1468": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Sassy Boutique",
+            "store_address": "<p>3375 Ocean Drive, Vero Beach, 32963</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "8d8775ce-5c0c-4b4c-b11f-4ec2bfa5b7cc": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Lily pad Childrens Boutique",
+            "store_address": "<p>3121 Ocean Dr, Ver, 32693</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "78aec187-2270-4f89-9c85-036d4e9b5fb7": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Rosie True Official",
+            "store_address": "<p>2400 3rd St S Ste 104, Jacksonville, 32250</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "676a7151-1450-4767-8f17-b1c5ff17467b": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Abode Home Key largo",
+            "store_address": "<p>1 Barracuda Ln, Key Largo, 33037</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "c19c8991-c1cf-4ef8-9749-a7324c8f889f": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Florida",
+            "store_name": "Luminary Rosemary",
+            "store_address": "<p>46 N Barrett Square # 103, Rosemary Beach, 32461</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "c007b5bb-b67f-4f79-b442-16f344ae87c8": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Georgia",
+            "store_name": "Number Four Eleven of Savannah",
+            "store_address": "<p>41 Whitaker Street, Savannah, 31401</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "d3e5977a-1dbe-47f2-9e4f-690fd380d937": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Georgia",
+            "store_name": "Mari Max",
+            "store_address": "<p>806 Frederica Road, Sea Island, 31522</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "de17eed4-ac2f-4200-a694-26072c931b1d": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Georgia",
+            "store_name": "Woo Skincare and Cosmetics Atlanta",
+            "store_address": "<p>2339-A Peachtree Road, Atlanta, 30305</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "7637e026-29c1-40fb-aa36-9f070c41d512": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Georgia",
+            "store_name": "Willow Park",
+            "store_address": "<p>255 Village Parkway Suite 170, Marietta, 30067</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "94e8a479-13f5-4351-963e-942367853c56": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Georgia",
+            "store_name": "One",
+            "store_address": "<p>543 Highland Ave, Augusta, 30909</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "f60ac29e-69c9-478f-baa8-96b5571e9efd": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Kentucky",
+            "store_name": "Monkee's of Lexington",
+            "store_address": "<p>116 Clay Avenue, Lexington, 40502</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "73b36cc8-3f91-404c-bcd5-920a70f0f1d3": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Kentucky",
+            "store_name": "Monkee's Of Louisville",
+            "store_address": "<p>3624 Brownsboro Rd, Louisville, 40207</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "d73e4ee6-2ebc-4989-8807-caf187ef5893": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Maine",
+            "store_name": "The Romantic Room",
+            "store_address": "<p>5 Rock End Road, NE Harbor, 4662</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "6400167e-a80f-41c5-9592-557692a0ae22": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Indiana",
+            "store_name": "Parkside Linen",
+            "store_address": "<p>1762 East 86th Street, Indianapolis, 46240</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "12cb4370-96ef-4da2-b025-1fe4d56faabe": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Idaho",
+            "store_name": "Silver Creek Outfitters",
+            "store_address": "<p>500 Main St., Ketchum, 83340</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "d2007d58-8ef6-427e-967f-bd207aa7d328": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Minnesota",
+            "store_name": "44North",
+            "store_address": "<p>701 Lake St E., Wayzata, 55391</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "79402ab0-7db7-47d3-8ed8-17de0598de0f": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Hampshire",
+            "store_name": "Christine's",
+            "store_address": "<p>1000 Washington Rd, Rye, 3870</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "a3db0d9e-01f8-4965-b08a-60734478257e": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "West Virginia",
+            "store_name": "Cat & Kate",
+            "store_address": "<p>937 Washington St. W, Lewisburg, 24901</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "797c49fc-a264-4722-b570-d6b1b49b001a": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Wisconsin",
+            "store_name": "Faye's",
+            "store_address": "<p>1505 W Mequon Rd.,  Mequon, 53092</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "68eab9e2-92a9-47f0-98ed-cb6ceef35d08": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Washington DC",
+            "store_name": "Tuckernuck",
+            "store_address": "<p>3216 O Street NW, Washington, 20007</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17102838235455__4442634b-b556-401f-a07a-0448b055993a-16778732482673e5a6-0",
+        "e2065478-8885-4452-8240-b77912c71547",
+        "cb6e2b73-a7e4-4b1d-972f-0548e2af41f1",
+        "4209ef5d-3705-4bd4-8e2c-a3d164e4542b",
+        "3f4deaaa-2d84-4c3f-b4a8-d2ab9100ee89",
+        "fa3df600-eba8-4d44-9321-d2e445757038",
+        "36cc2223-163f-448e-9c20-21da5327a049",
+        "2341d149-5f95-40b3-a987-924be9a4bd20",
+        "8d51b83e-4c4b-4011-ae77-97293827f39c",
+        "6c0294e1-9b20-4207-af8b-8e68fc5148b8",
+        "46f8d4da-242c-4263-8e44-0462351a1d0e",
+        "7655ebdd-2b43-45cb-9127-2e726d5c5463",
+        "df507a5f-13d8-4c8a-b5be-24de30a2860c",
+        "51a02691-9a11-4ed3-b843-163c2063b0d1",
+        "6108d7f5-3bf3-42bd-a13b-2e0188cc945f",
+        "551142f0-518b-4e81-b37c-2d1394277e52",
+        "65bcfd7d-8989-43e8-8df5-1a1e8c3adeca",
+        "21f53965-cf0f-4d48-a662-bc9e5faa57b8",
+        "2f14729f-a9de-437b-9fa9-3f0affd98a7f",
+        "8f194a4d-6153-43b2-a9cb-e852a67b4e44",
+        "f577cb0e-1ad5-407f-9883-04cefc0a6b90",
+        "f08609bc-aaf4-48eb-bac6-0205f8f4923b",
+        "acecc1bd-4904-461a-99be-c2d29d9fc744",
+        "a556a0c6-be76-490d-a3d9-439867363d70",
+        "b7fec579-9740-4d5d-9b1c-d2090978c034",
+        "e6a0a2d2-026a-4e7a-a8bb-cbf19d2a924e",
+        "83a0171d-ae65-4b4f-b8ca-971a63f2beee",
+        "5d634727-b586-4829-96bd-d394e1b27c0a",
+        "792c8942-25b4-43c1-90f2-4a2ea4341197",
+        "af263a52-6638-4d37-88b2-3889d9f7b07d",
+        "1991adf0-9c3e-4bf5-887f-571524ba1468",
+        "8d8775ce-5c0c-4b4c-b11f-4ec2bfa5b7cc",
+        "78aec187-2270-4f89-9c85-036d4e9b5fb7",
+        "676a7151-1450-4767-8f17-b1c5ff17467b",
+        "c19c8991-c1cf-4ef8-9749-a7324c8f889f",
+        "c007b5bb-b67f-4f79-b442-16f344ae87c8",
+        "d3e5977a-1dbe-47f2-9e4f-690fd380d937",
+        "de17eed4-ac2f-4200-a694-26072c931b1d",
+        "7637e026-29c1-40fb-aa36-9f070c41d512",
+        "94e8a479-13f5-4351-963e-942367853c56",
+        "f60ac29e-69c9-478f-baa8-96b5571e9efd",
+        "73b36cc8-3f91-404c-bcd5-920a70f0f1d3",
+        "d73e4ee6-2ebc-4989-8807-caf187ef5893",
+        "6400167e-a80f-41c5-9592-557692a0ae22",
+        "12cb4370-96ef-4da2-b025-1fe4d56faabe",
+        "d2007d58-8ef6-427e-967f-bd207aa7d328",
+        "79402ab0-7db7-47d3-8ed8-17de0598de0f",
+        "a3db0d9e-01f8-4965-b08a-60734478257e",
+        "797c49fc-a264-4722-b570-d6b1b49b001a",
+        "68eab9e2-92a9-47f0-98ed-cb6ceef35d08"
+      ],
+      "settings": {
+        "id_category_store": "usa"
+      }
+    },
+    "7cbfee3a-2cfc-4931-85b5-dceabd40d7fe": {
+      "type": "stockists-store",
+      "blocks": {
+        "template--17115193442623__7cbfee3a-2cfc-4931-85b5-dceabd40d7fe-1678818864f57e84c8-0": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "South Carolina",
+            "store_name": "Monkee's Of The Westend",
+            "store_address": "<p>103-A Augusta ST, Greenville, 29601</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "65932ad8-5e56-4c30-82c3-3ccd1aee94c3": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "South Carolina",
+            "store_name": "TWILL",
+            "store_address": "<p>2222 Augusta St. #7, Greenville, 29605</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "ba061218-28d7-4ebd-a4d6-32ee899c30e3": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "South Carolina",
+            "store_name": "Monkee's Of Mount Pleasant",
+            "store_address": "<p>1421 Shucker Circle, Mount Pleasant, 29464</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "496e6011-d801-48c5-92a5-29c0336823af": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "South Carolina",
+            "store_name": "Slate",
+            "store_address": "<p>2702 Devine Street, Columbia, 29205</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "ca8aef69-bf40-4f16-8ebc-acf0589e6b3f": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "South Carolina",
+            "store_name": "Outside Hilton Head",
+            "store_address": "<p>50 Shelter Cove Lane, Hilton Head Island, 29928</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "e5daa6d5-c435-440c-b8da-43560332ff04": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "South Carolina",
+            "store_name": "Julep",
+            "store_address": "<p>57 Queen Street, Charleston, 29401</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "c94569f3-f8bf-4b7a-876c-f6eea5e84178": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "South Carolina",
+            "store_name": "Monkee's of Myrtle Beach",
+            "store_address": "<p>4822-A Highway 17 South, North Myrtle Beach, 29582</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "2e767396-99c1-4b97-bfec-b849d3789f08": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Connecticut",
+            "store_name": "Back 40 Mercantile",
+            "store_address": "<p>264 Sound Beach Ave., Old Greenwich, 6870</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "edb1e306-04dd-40ce-be81-7b03cff87c2e": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Connecticut",
+            "store_name": "Bel Mondo",
+            "store_address": "<p>993 Post RD East, Westport, 6880</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "e3820cc0-cf91-49b1-9c75-4791980f6e04": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Connecticut",
+            "store_name": "Flirt",
+            "store_address": "<p>3551 WHITNEY AVE, HAMDEN, 6518</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "4c95b3af-b395-42cd-b142-4226ed0151ed": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Connecticut",
+            "store_name": "Joie Maison",
+            "store_address": "<p>2 Main St., Salisbury, 6068</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "c2b08c4b-6e86-4a7f-87d7-0a17a4163f2b": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Connecticut",
+            "store_name": "Darien Sport Shop",
+            "store_address": "<p>1127 Post Road, Darien, 6820</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "3a90a6d8-85ea-4371-aa37-fa7b2d5bdca0": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Connecticut",
+            "store_name": "Cortland Park",
+            "store_address": "<p>23B Main Street, Essex, 6426</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "459155fc-0c28-4c26-adf6-681e1889954f": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Connecticut",
+            "store_name": "Bella Tu",
+            "store_address": "<p>6121 Avalon Drive East, New Canaan, 6840</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "dfe1e82a-9be5-40ce-975d-7b363d4859f2": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Connecticut",
+            "store_name": "Island Outfitters- Fairfield",
+            "store_address": "<p>1189 Post Road, Fairfield, 6824</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "8c92e040-a59a-498f-8ba3-1ea068d01c9a": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Puerto Rico",
+            "store_name": "Raquel Cohen",
+            "store_address": "<p>#5 Camino Alejandrino, Guaynabo, 969</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "0f4a2749-e94e-479a-b58d-bf9d3cda47af": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Tennessee",
+            "store_name": "Woo Skincare and Cosmetics",
+            "store_address": "<p>2154 Brandywood Drive, Nashville, 37215</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "a4975394-e15e-46ce-ae17-24a91cd19859": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Tennessee",
+            "store_name": "Ever Alice",
+            "store_address": "<p>2209 Brandywood Drive, Nashville, 37215</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "fe6faab2-4684-4ecc-9708-f332d23b58fc": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Tennessee",
+            "store_name": "Epergne",
+            "store_address": "<p>6592 TN-100, Nashville, 37205</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "a482fdc8-a787-48fe-8672-0fbd985fd7ca": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Tennessee",
+            "store_name": "Blackberry Farm",
+            "store_address": "<p>1471 West Millers Cove Road, Walland, 37886</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "60420b01-eaed-4934-bbaa-5b6eb357a1ed": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Tennessee",
+            "store_name": "The French Shoppe",
+            "store_address": "<p>2817 West End Avenue #120, Nashville, 37203</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "c58ba2e6-3e0b-4604-82af-7cc2a6d49b6a": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Texas",
+            "store_name": "A Bientot",
+            "store_address": "<p>2501 River Oaks Blvd, Houston, 77019</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "04c8f0a3-f70b-4662-8544-7c8c2ccd0fac": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Texas",
+            "store_name": "Four Seasons",
+            "store_address": "<p>Hualalai Club PO Box 981736, El Paso, 79998</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "d49ab17e-85f8-415b-835a-b6307cd849a9": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Texas",
+            "store_name": "Four Seasons Resort Maui",
+            "store_address": "<p>PO Box 981736, El Paso, 79998</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "91da4bf0-76b9-4d75-8b78-79b307ea55ac": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Texas",
+            "store_name": "Muse",
+            "store_address": "<p>730 Country Lane, Houston, 77024</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "c032929c-3215-4f43-bd41-94eed9f8f8a6": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Texas",
+            "store_name": "Julian Gold San Antonio",
+            "store_address": "<p>4109 McCullough Ave, San Antonio, 78212</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "395ef647-32a2-4c71-b4ec-2392a9ccc747": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Texas",
+            "store_name": "Julian Gold Corpus Christi",
+            "store_address": "<p>3840 S Alaneda, Corpus Christi, 78411</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "548e2d2b-43c7-4793-9274-6a7d1f0dda3d": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Texas",
+            "store_name": "Julian Gold Midland",
+            "store_address": "<p>2101 W Wadley, Midland, 79705</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "02beb850-a081-4c7f-844e-a6f4525ea85c": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Texas",
+            "store_name": "Julian Gold Austin",
+            "store_address": "<p>4111 McCullough, San Antonio, 78212</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "1f351e6d-3824-4f2e-a88c-7380810ac31f": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Ohio",
+            "store_name": "The Grey Colt",
+            "store_address": "<p>150 N. Main St., Hudson, 44326</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "4a5ce82d-2c24-4ff2-b8bc-50ac5cde77f1": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Ohio",
+            "store_name": "Elizabeth Grace Home",
+            "store_address": "<p>7809 Cooper Road Suite A, Cincinnati, 45242</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "4f91450f-301f-45d7-92e4-3b1d8581fbb7": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "Erica Wilson",
+            "store_address": "<p>25-27 Main Street, Nantucket, 2554</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "649f4310-21ed-4eff-b3c2-0627b5ad3687": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "Sara Campbell",
+            "store_address": "<p>67 Kemble Street 4th Floor, Boston, 2119</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "65f488c5-0887-4eaf-b9cf-358a2039dfa0": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "Nell",
+            "store_address": "<p>20 Main Street, Edgartown, 2539</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "6e755765-f52a-4608-92d4-19b939d357c2": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "Island Outfitters- Osterville",
+            "store_address": "<p>21 Wianno Avenue, Osterville, 2665</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "72c65b05-b084-490e-8dc0-3fbc15194cf3": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "Kindred",
+            "store_address": "<p>292 Main Street, Hingham, 2043</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "db807611-1c5b-4bd6-8e82-9cc676661318": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "Brook and Main",
+            "store_address": "<p>1 Brook St., Cohasset, 2024</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "1adce134-c621-4af2-9049-8d5f0d5228e0": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "J'aim home.lifestyle",
+            "store_address": "<p>84a Commonwealth Avenue, Concord, 1742</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "acf59c59-aa2f-4af1-9429-f2ee141fe531": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "Flora",
+            "store_address": "<p>354 Elm Street, South Dartmouth, 2748</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "3dbc819c-9383-4033-ad9a-b3ec860dd969": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "Details and Goods",
+            "store_address": "<p>849 Main St., Osterville, 2655</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "842ae1d2-c7bc-47a5-9a32-40e72ba09cd1": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Massachusetts",
+            "store_name": "WELLESLEY HOLIDAY BOUTIQUE",
+            "store_address": "<p>17 Central St. MA 02482, Wellesley, 2482</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "77fd6fb2-0872-48f3-b926-715707631c6c": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Maryland",
+            "store_name": "Mimi's Closet",
+            "store_address": "<p>307 High Street, Chestertown, 21620</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "66ad37b6-7010-46b0-8276-f57105abea3d": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Maryland",
+            "store_name": "Monkee's Of Ocean City",
+            "store_address": "<p>5909 Coastal Highway #4, Ocean City2, 1842</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "e0f6fded-86bb-4e57-91fa-2177f0814342": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Mississippi",
+            "store_name": "Monkee's Of Ridgeland",
+            "store_address": "<p>100 Highland Colony PKWY, Ridgeland, 39157</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "55fcfa01-ca0e-4c27-8967-f34129f13dbc": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Pennsylvania",
+            "store_name": "No. 109",
+            "store_address": "<p>109 West State Street, Kennett Square, 19348</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "2b813dc0-b94c-44a1-adad-4946c927fa44": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Pennsylvania",
+            "store_name": "Lovebirds Boutique",
+            "store_address": "<p>105 E. Lancaster Ave, Wayne, 19087</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "e4892fc4-dc43-4fd7-b6ce-2257dc72dac0": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Pennsylvania",
+            "store_name": "The Apple Tree",
+            "store_address": "<p>726 Main St., Stroudsburg, 18360</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "a5716e6a-fa40-4631-93b2-59e3f8be40b4": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Rhode Island",
+            "store_name": "WENDY BROWN HOME",
+            "store_address": "<p>190 WAYLAND AVENUE, PROVIDENCE, 2906</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "5c8fa8f1-9799-4210-9820-6804bdeae83a": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Rhode Island",
+            "store_name": "X and O",
+            "store_address": "<p>190 Bellevue Avenue, Newport, 2840</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "fce044a4-ac78-4156-ba10-ca5165097c74": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Rhode Island",
+            "store_name": "Monelle",
+            "store_address": "<p>17 Bowens Wharf, Newport, 2840</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17115193442623__7cbfee3a-2cfc-4931-85b5-dceabd40d7fe-1678818864f57e84c8-0",
+        "65932ad8-5e56-4c30-82c3-3ccd1aee94c3",
+        "ba061218-28d7-4ebd-a4d6-32ee899c30e3",
+        "496e6011-d801-48c5-92a5-29c0336823af",
+        "ca8aef69-bf40-4f16-8ebc-acf0589e6b3f",
+        "e5daa6d5-c435-440c-b8da-43560332ff04",
+        "c94569f3-f8bf-4b7a-876c-f6eea5e84178",
+        "2e767396-99c1-4b97-bfec-b849d3789f08",
+        "edb1e306-04dd-40ce-be81-7b03cff87c2e",
+        "e3820cc0-cf91-49b1-9c75-4791980f6e04",
+        "4c95b3af-b395-42cd-b142-4226ed0151ed",
+        "c2b08c4b-6e86-4a7f-87d7-0a17a4163f2b",
+        "3a90a6d8-85ea-4371-aa37-fa7b2d5bdca0",
+        "459155fc-0c28-4c26-adf6-681e1889954f",
+        "dfe1e82a-9be5-40ce-975d-7b363d4859f2",
+        "8c92e040-a59a-498f-8ba3-1ea068d01c9a",
+        "0f4a2749-e94e-479a-b58d-bf9d3cda47af",
+        "a4975394-e15e-46ce-ae17-24a91cd19859",
+        "fe6faab2-4684-4ecc-9708-f332d23b58fc",
+        "a482fdc8-a787-48fe-8672-0fbd985fd7ca",
+        "60420b01-eaed-4934-bbaa-5b6eb357a1ed",
+        "c58ba2e6-3e0b-4604-82af-7cc2a6d49b6a",
+        "04c8f0a3-f70b-4662-8544-7c8c2ccd0fac",
+        "d49ab17e-85f8-415b-835a-b6307cd849a9",
+        "91da4bf0-76b9-4d75-8b78-79b307ea55ac",
+        "c032929c-3215-4f43-bd41-94eed9f8f8a6",
+        "395ef647-32a2-4c71-b4ec-2392a9ccc747",
+        "548e2d2b-43c7-4793-9274-6a7d1f0dda3d",
+        "02beb850-a081-4c7f-844e-a6f4525ea85c",
+        "1f351e6d-3824-4f2e-a88c-7380810ac31f",
+        "4a5ce82d-2c24-4ff2-b8bc-50ac5cde77f1",
+        "4f91450f-301f-45d7-92e4-3b1d8581fbb7",
+        "649f4310-21ed-4eff-b3c2-0627b5ad3687",
+        "65f488c5-0887-4eaf-b9cf-358a2039dfa0",
+        "6e755765-f52a-4608-92d4-19b939d357c2",
+        "72c65b05-b084-490e-8dc0-3fbc15194cf3",
+        "db807611-1c5b-4bd6-8e82-9cc676661318",
+        "1adce134-c621-4af2-9049-8d5f0d5228e0",
+        "acf59c59-aa2f-4af1-9429-f2ee141fe531",
+        "3dbc819c-9383-4033-ad9a-b3ec860dd969",
+        "842ae1d2-c7bc-47a5-9a32-40e72ba09cd1",
+        "77fd6fb2-0872-48f3-b926-715707631c6c",
+        "66ad37b6-7010-46b0-8276-f57105abea3d",
+        "e0f6fded-86bb-4e57-91fa-2177f0814342",
+        "55fcfa01-ca0e-4c27-8967-f34129f13dbc",
+        "2b813dc0-b94c-44a1-adad-4946c927fa44",
+        "e4892fc4-dc43-4fd7-b6ce-2257dc72dac0",
+        "a5716e6a-fa40-4631-93b2-59e3f8be40b4",
+        "5c8fa8f1-9799-4210-9820-6804bdeae83a",
+        "fce044a4-ac78-4156-ba10-ca5165097c74"
+      ],
+      "settings": {
+        "id_category_store": "usa"
+      }
+    },
+    "7275ba77-33df-4445-99f7-52063bf22335": {
+      "type": "stockists-store",
+      "blocks": {
+        "000f3483-1724-4eaa-903a-5c21f47a950f": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Dovecote",
+            "store_address": "<p>200 Fearington Village CTR, Pittsboro, 27312</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "63455e45-14e3-4f29-af30-e943174840ec": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Abode Home",
+            "store_address": "<p>1530 East Blvd, Charlotte, 28203</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "e8e65771-f27e-40bd-9857-f79a7c1c3012": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Monkee's of Chapel Hill",
+            "store_address": "<p>108 Meadowmont Village Circle, Chapel Hill, 27517</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "5de8ffb0-620b-4adc-8c22-e62a31225fdc": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Woo Skincare and Cosmetics Charlotte",
+            "store_address": "<p>2900 Selwyn Ave, Charlotte, 28209</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "template--17102838235455__7275ba77-33df-4445-99f7-52063bf22335-1678803596488d6602-0": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Monkee's Of Wilmington",
+            "store_address": "<p>1900 Eastwood Road, Wilmington, 28403</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "ca307b50-ecab-4658-9a4c-289099d59a65": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Monkee's of Raleigh",
+            "store_address": "<p>4158 Main at North Hills St. #100, Raleigh, 27609</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "06ebfd1e-dadf-41cb-a093-7d82122b44ca": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Monkee's of the Village",
+            "store_address": "<p>217 Reynolda Village, Winston-Salem, 27106</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "d1596196-d28f-476e-a59a-d2b38ccc4aa2": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "The Posh Pelican",
+            "store_address": "<p>417 W Fort Macon Road, Atlantic Beach, 28512</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "6d484143-255a-4a2a-8ac7-d92541d22ab3": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Charlotte's Boutique North Hils",
+            "store_address": "<p>2034 Cameron Street, Raleigh, 27605</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "2088a33e-f6d1-4c1e-aecc-18b96ed3333e": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Sherrard Style",
+            "store_address": "<p>417 East Blvd, Charlotte, 28203</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "2451d146-6dbc-43a9-890e-5652fbd9829a": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "North Carolina",
+            "store_name": "Belle & Co.",
+            "store_address": "<p>2801-3A Ward Blvd., Wilson, 27893</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "cdd4e7e6-56af-4b9d-a1b9-35f34ec18bcc": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "Cabana",
+            "store_address": "<p> 1918 White Street, Red Bank, 7701</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "03408dcc-bbfe-460d-9a1a-d6034ca78cf4": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "MOTIFS",
+            "store_address": "<p>926 US-46 Second Floor, Kenvil, 7847</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "c9739dd0-a817-4ad9-92f5-a3e7591bbda4": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "Waterlily",
+            "store_address": "<p>1202 3rd Avenue, Spring Lake, 7762</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "1c22bc73-c666-4b90-bc78-7d23677c6044": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "People People",
+            "store_address": "<p>9810 3rd Avenue, Stone Harbor, 8237</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "3a1db4ea-4a03-4db6-8448-382999297237": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "Closet Boutique",
+            "store_address": "<p>2509 Dune Drive, Avalon, 8202</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "293c12ea-1559-472d-9f81-1940af5eb867": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "BB Clover",
+            "store_address": "<p>181 Franklin Turnpike, Ho Ho Kus, 7423</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "d7592568-1263-4f6a-9e78-6d384446460f": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "Stitch Boutique",
+            "store_address": "<p>12 Waverly Place, Madison, 7940</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "c9905efc-fa7e-4e64-acea-8130eeba6eb3": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "Tommy's Folly",
+            "store_address": "<p>200 Congress Place, Cape May8, 204</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "7577bed6-cb05-474f-8249-5ae6c9753238": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "Shop Teggy French",
+            "store_address": "<p>20 Olcott Square, Bernardsville, 7924</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "9cce61d6-f471-40a8-ab5f-f26e347c4e4b": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "Carrie Dunham",
+            "store_address": "<p>523 Main Avenue, Bay Head, 8742</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "76fd5dcd-1745-456e-b4e3-0a1b6ce6b171": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New Jersey",
+            "store_name": "Annabelle",
+            "store_address": "<p>2174 Dune Dr., Avalon, 8202</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "8f944b8b-2611-42ad-87a2-ff532c0db166": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Joey Wolffer",
+            "store_address": "<p>11 Madison Street, Sag Harbor, 11963</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "d6db29b3-1ee8-4e87-86a5-efc63af7c543": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Urban Soul",
+            "store_address": "<p>42 Main St., Southampton, 11968</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "ad0caa80-61ae-4c3c-8cbb-52a428206bb9": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Halsbrook",
+            "store_address": "<p>276 Fifth Avenue, New York, 10001</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "66b86cd4-39bf-431c-9170-abb8497d6bdb": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Dabney Lee",
+            "store_address": "<p>27 Ridgewood Drive, Rye, 10580</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "dafc0d92-3208-43a1-8bba-ecd99d14ade6": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Palmer and Purchase",
+            "store_address": "<p>43 Purchase Street, Rye, 10580</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "482190cc-be00-4112-a401-805253bd9156": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Gracie's",
+            "store_address": "<p>588 New Loudon Road, Latham, 12110</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "b4e6a406-95c1-4bbf-8449-78919da51bc7": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "TONEY TONI AND THE GANG",
+            "store_address": "<p>70 PONDFIELD ROAD, BRONXVILLE, 10708</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "4c5ec0da-922a-44ab-8cf9-b3e980d16575": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "The Beach Plum",
+            "store_address": "<p>515 Equestrian Avenue, Fishers Island, 6390</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "b87f8228-1ddd-433e-8fc7-f468a1f25776": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Obligato",
+            "store_address": "<p>47 MAIN STREET, EAST HAMPTON, 11937</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "423be3a2-85e7-48ba-b0e9-f8d80c9139e5": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Shoes N More",
+            "store_address": "<p>168 Irving Avenue, Port Chester, 10573</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "81bded1a-35de-4c4c-94ee-8436501594a0": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Xanadu",
+            "store_address": "<p>65 Main Street, South Hampton, 11968</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "f2e38c89-ca25-4fdb-9539-34b063733c53": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Bubble & Tweet",
+            "store_address": "<p>656 Old Post Rd., Bedford, 10506</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "322abded-7e92-47ee-846a-72fe8f9e3dff": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Le Petit Zebra",
+            "store_address": "<p>23 The Plaza Shoppes, Locust Valley, 11560</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "b2f761a0-8d75-4e64-85db-b102511b35f3": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Urban Sou",
+            "store_address": "<p>l42 Main St., Southampton, 11968</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "05e9e661-018e-4677-8efb-ff22eda080d9": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Quogue shop",
+            "store_address": "<p>144 Jessup Ave., Quogue, 1959</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "2d6b9ab4-d444-4aa5-8ec5-20de350245e2": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "New York",
+            "store_name": "Quogue shop",
+            "store_address": "<p>144 Jessup Ave., Quogue, 1959</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "cdec38b6-922c-4bba-9cfd-c58e0915f698": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virginia",
+            "store_name": "Frankie + Millie Bebe",
+            "store_address": "<p>1050 Greenway Ct., Lynchburg, 24503</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "6d8b428f-17c5-4328-a253-0722ee1a50fa": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virginia",
+            "store_name": "Nellie George",
+            "store_address": "<p>5714 Grove Avenue, Richmond, 23226</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "745e21d4-34d8-46d0-adfb-f875249f8fa3": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virginia",
+            "store_name": "1Z Baby Lifestyle Boutique",
+            "store_address": "<p>401 Libbie Ave, Richmond, 23226</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "17c67a61-1f0e-4d90-a762-34fd704e08c2": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virginia",
+            "store_name": "Monkee's Of Virgina Beach",
+            "store_address": "<p>4549 Main Street, Virginia Beach, 23462</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "d67d5d89-48ff-41a2-853f-17d4714568ed": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virginia",
+            "store_name": "Chloe's of Middleburg",
+            "store_address": "<p>12 E Washington St., Middleburg, 20117</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "de12a8ee-3c52-4d61-b8c1-11532ad6cd3a": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virginia",
+            "store_name": "The Dandelion",
+            "store_address": "<p>4372 Irvington Rd., Irvington, 22480</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "f22e51fd-d29f-4d74-96a4-7a61e6a45903": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virginia",
+            "store_name": "Monkee's of Fairfax",
+            "store_address": "<p>11899 Grand Commons Ave, Fairfax, 22030</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "ca65e8b2-2a40-40ae-82c3-c71fdc39cb1c": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virgin Islands",
+            "store_name": "Lulee",
+            "store_address": "<p>5000 Estate Enighed #239St.,  John, 830</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "6b2315d4-b9e1-462e-b69b-701529eba02d": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virgin Islands",
+            "store_name": "House LTD",
+            "store_address": "<p>PO Box 857, Tortola, V97110</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "6341e14a-29cb-43d9-83c2-c75852db7632": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Virgin Islands",
+            "store_name": "Lulee St. John",
+            "store_address": "<p>5000 Estate Enighed, St John, 830</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "000f3483-1724-4eaa-903a-5c21f47a950f",
+        "63455e45-14e3-4f29-af30-e943174840ec",
+        "e8e65771-f27e-40bd-9857-f79a7c1c3012",
+        "5de8ffb0-620b-4adc-8c22-e62a31225fdc",
+        "template--17102838235455__7275ba77-33df-4445-99f7-52063bf22335-1678803596488d6602-0",
+        "ca307b50-ecab-4658-9a4c-289099d59a65",
+        "06ebfd1e-dadf-41cb-a093-7d82122b44ca",
+        "d1596196-d28f-476e-a59a-d2b38ccc4aa2",
+        "6d484143-255a-4a2a-8ac7-d92541d22ab3",
+        "2088a33e-f6d1-4c1e-aecc-18b96ed3333e",
+        "2451d146-6dbc-43a9-890e-5652fbd9829a",
+        "cdd4e7e6-56af-4b9d-a1b9-35f34ec18bcc",
+        "03408dcc-bbfe-460d-9a1a-d6034ca78cf4",
+        "c9739dd0-a817-4ad9-92f5-a3e7591bbda4",
+        "1c22bc73-c666-4b90-bc78-7d23677c6044",
+        "3a1db4ea-4a03-4db6-8448-382999297237",
+        "293c12ea-1559-472d-9f81-1940af5eb867",
+        "d7592568-1263-4f6a-9e78-6d384446460f",
+        "c9905efc-fa7e-4e64-acea-8130eeba6eb3",
+        "7577bed6-cb05-474f-8249-5ae6c9753238",
+        "9cce61d6-f471-40a8-ab5f-f26e347c4e4b",
+        "76fd5dcd-1745-456e-b4e3-0a1b6ce6b171",
+        "8f944b8b-2611-42ad-87a2-ff532c0db166",
+        "d6db29b3-1ee8-4e87-86a5-efc63af7c543",
+        "ad0caa80-61ae-4c3c-8cbb-52a428206bb9",
+        "66b86cd4-39bf-431c-9170-abb8497d6bdb",
+        "dafc0d92-3208-43a1-8bba-ecd99d14ade6",
+        "482190cc-be00-4112-a401-805253bd9156",
+        "b4e6a406-95c1-4bbf-8449-78919da51bc7",
+        "4c5ec0da-922a-44ab-8cf9-b3e980d16575",
+        "b87f8228-1ddd-433e-8fc7-f468a1f25776",
+        "423be3a2-85e7-48ba-b0e9-f8d80c9139e5",
+        "81bded1a-35de-4c4c-94ee-8436501594a0",
+        "f2e38c89-ca25-4fdb-9539-34b063733c53",
+        "322abded-7e92-47ee-846a-72fe8f9e3dff",
+        "b2f761a0-8d75-4e64-85db-b102511b35f3",
+        "05e9e661-018e-4677-8efb-ff22eda080d9",
+        "2d6b9ab4-d444-4aa5-8ec5-20de350245e2",
+        "cdec38b6-922c-4bba-9cfd-c58e0915f698",
+        "6d8b428f-17c5-4328-a253-0722ee1a50fa",
+        "745e21d4-34d8-46d0-adfb-f875249f8fa3",
+        "17c67a61-1f0e-4d90-a762-34fd704e08c2",
+        "d67d5d89-48ff-41a2-853f-17d4714568ed",
+        "de12a8ee-3c52-4d61-b8c1-11532ad6cd3a",
+        "f22e51fd-d29f-4d74-96a4-7a61e6a45903",
+        "ca65e8b2-2a40-40ae-82c3-c71fdc39cb1c",
+        "6b2315d4-b9e1-462e-b69b-701529eba02d",
+        "6341e14a-29cb-43d9-83c2-c75852db7632"
+      ],
+      "settings": {
+        "id_category_store": "usa"
+      }
+    },
+    "ca8bc138-bedc-473b-9c32-3ea02aeb69a2": {
+      "type": "stockists-store",
+      "blocks": {
+        "template--17102838235455__ca8bc138-bedc-473b-9c32-3ea02aeb69a2-16778732482673e5a6-0": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Bahamas",
+            "store_name": "BLUE ROOSTER",
+            "store_address": "<p>HARBOUR ISLAND, 11111</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "c21f5894-35e3-4db0-9a85-e5d77e247b26": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Bahamas",
+            "store_name": "FAB FINDS GIFT SHOPP",
+            "store_address": "<p>O BOX SS 6165, NASSAU, 1</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "dd8a6bf2-d210-4fe9-883e-2558896f1fd6": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Canada",
+            "store_name": "SNAPDRAGON DESINGS",
+            "store_address": "<p>622 MT PLEASANT RD, TORONTO, ONTARIO, M4S2M8</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "7a822fca-17b4-4631-8832-c2efe132f21a": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Mexico",
+            "store_name": "ESPERANZA RESORT",
+            "store_address": "<p>CARRETERA TRANSPENINSULAR KM 7 MANZANA 10 PUNTA BALLENA, CABO SAN LUCAS, BAJA CALIFORNIA, 23410</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "4d5298d1-eca1-4171-88c2-3dfab7adcad1": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Mexico",
+            "store_name": "CHILENO BAY RESORT",
+            "store_address": "<p>CARRETERA TRANSPENINSULAR SAN JOSE-SAN LUCAS KM. 15 PLAYA CHILENO BAY, CABO SAN LUCAS, BAJA CALIFORNIA, 23410</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        },
+        "deb194e6-42b3-45fe-aa15-28802bea5de9": {
+          "type": "store",
+          "settings": {
+            "id_place_store": "Turks and Caicos Islands",
+            "store_name": "Palms Resort",
+            "store_address": "<p>16 Princess Drive, Providenciales, TKCA 1ZZ</p>",
+            "store_phone": "",
+            "store_website": "",
+            "store_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17102838235455__ca8bc138-bedc-473b-9c32-3ea02aeb69a2-16778732482673e5a6-0",
+        "c21f5894-35e3-4db0-9a85-e5d77e247b26",
+        "dd8a6bf2-d210-4fe9-883e-2558896f1fd6",
+        "7a822fca-17b4-4631-8832-c2efe132f21a",
+        "4d5298d1-eca1-4171-88c2-3dfab7adcad1",
+        "deb194e6-42b3-45fe-aa15-28802bea5de9"
+      ],
+      "settings": {
+        "id_category_store": "in"
+      }
+    },
+    "footer": {
+      "type": "footer-stockists",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "debf0e29-98c7-45ff-a5b7-4dd4293d71f8",
+    "94c5f6c7-bbe1-4c4b-a7f2-e0a18f96a6d2",
+    "4442634b-b556-401f-a07a-0448b055993a",
+    "7cbfee3a-2cfc-4931-85b5-dceabd40d7fe",
+    "7275ba77-33df-4445-99f7-52063bf22335",
+    "ca8bc138-bedc-473b-9c32-3ea02aeb69a2",
+    "footer"
+  ]
+}

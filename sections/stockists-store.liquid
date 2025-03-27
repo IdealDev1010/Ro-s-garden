@@ -1,0 +1,95 @@
+<div class="store-right">
+         <div class="right-side">
+            {% for block in section.blocks %}
+               
+                    {% assign current_category = section.settings.id_category_store %}
+               
+                    
+                
+                {% if block.type == "store" %}
+                    <div data-parent="{{ block.settings.id_place_store }}" data-category="{{ section.settings.id_category_store }}" class="store">
+                        {% if block.settings.store_name != blank %}
+                            <h3 class="store_name">{{block.settings.store_name}}</h3>
+                        {% endif %}
+                        {% if block.settings.store_address != blank %}
+                            <h4 class="store_address">{{block.settings.store_address}}</h4>
+                        {% endif %}
+                        {% if block.settings.store_phone != blank %}
+                            <h4 class="store_phone">{{block.settings.store_phone}}</h4>
+                        {% endif %}
+                        {% if block.settings.store_website != blank %}
+                            <a  class="store_website" href="{{block.settings.store_url}}" target="_blank">{{block.settings.store_website}}</a>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+</div>
+
+
+{% schema %}
+{
+  
+    "name": "Store Stockists",
+    "class": "section-stockists",
+    "settings": [
+        {
+                "type": "text",
+                "label": "Id Country",
+                "id": "id_category_store"
+         }
+     ],
+         "blocks": [
+             {
+            "type": "store",
+            "name": "Store",
+            "settings": [
+              
+              {
+                 "type": "text",
+                 "label": "Place Name",
+                 "id": "id_place_store"
+               },
+              {
+                "type": "text",
+                 "id":"store_name",
+                 "label":"Store Name"
+              },
+              {
+                 "type": "richtext",
+                  "id":"store_address",
+                  "label":"Address"
+               },
+               {
+                  "type": "text",
+                  "id":"store_phone",
+                  "label":"Phone"
+               },
+               {
+                  "type": "text",
+                  "id":"store_website",
+                  "label":"Website label"
+               },
+              {
+               "type": "url",
+                "label": "Website link",
+                "id": "store_url"
+              }
+            ]
+          }
+        ],
+        
+  "presets": [
+    {
+      "name": "Store Stockists",
+      "blocks": [
+        {
+          "type": "store"
+        }
+      ]
+    }
+  ]
+  
+}
+{% endschema %}

@@ -1,0 +1,363 @@
+                  <style>
+                  .wrapper {
+  margin: 2em auto;
+  max-width: 970px;
+}
+
+  .masonry {
+        max-width: 950px !important;
+    margin:0 auto !important;
+  }
+.masonry img {
+vertical-align: middle;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+}
+
+.masonry {
+  display: flex;
+  width: 100%;
+}
+
+.masonry a {
+  color: #333;
+}
+
+.masonry--h {
+  flex-flow: row wrap;
+}
+
+.masonry--v {
+  flex-flow: column wrap;
+  max-height: 1080px;
+}
+
+.masonry--h,
+.masonry--v {
+  margin-left: -8px; /* Adjustment for the gutter */
+  counter-reset: brick;
+}
+
+.masonry-brick {
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 0 8px 8px;  /* Some Gutter */
+  background-color: #333;
+  color: white;
+  position: relative;
+}
+
+.masonry-brick:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5000;
+  transform: translate(-50%, -50%);
+  counter-increment: brick;
+  content: counter(brick);
+  transition: font-size .25s, opacity .25s ease-in-out;
+  font-weight: 700;
+  opacity: .5;
+  font-size: 1.25em;
+}
+
+.masonry-brick:hover:after {
+  font-size: 2.25em;
+  opacity: 1;
+}
+
+.masonry-brick--h {
+  flex: auto;
+  height: 250px;
+  min-width: 150px;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Horizontal masonry bricks on desktop-sized screen */
+  .masonry-brick--h:nth-child(4n+1) {
+    width: 250px;
+  }
+  .masonry-brick--h:nth-child(4n+2) {
+    width: 325px;
+  }
+  .masonry-brick--h:nth-child(4n+3) {
+    width: 180px;
+  }
+  .masonry-brick--h:nth-child(4n+4) {
+    width: 380px;
+  }
+
+  /* Adjusting vertical masonry height on desktop-sized screen */
+  .masonry--v {
+    max-height: 1600px;
+  }
+
+  /* Vertical masonry bricks on desktop-sized screen */
+  .masonry-brick--v {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  /* Horizontal masonry bricks on tabled-sized screen */
+  .masonry-brick--h:nth-child(4n+1) {
+    width: 200px;
+  }
+  .masonry-brick--h:nth-child(4n+2) {
+    width: 250px;
+  }
+  .masonry-brick--h:nth-child(4n+3) {
+    width: 120px;
+  }
+  .masonry-brick--h:nth-child(4n+4) {
+    width: 280px;
+  }
+
+  /* Adjusting vertical masonry height on tablet-sized screen */
+  .masonry--v {
+    max-height: 2000px;
+  }
+
+  /* Vertical masonry bricks on tablet-sized screen */
+  .masonry-brick--v {
+    width: 50%;
+  }
+}
+
+.masonry-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
+}
+
+
+/* Page assets */
+
+.labs-pagination {
+  margin-bottom: 1.5rem;
+  font-size: 12px;
+}
+
+.labs-page {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: .5em .75em;
+  border: 2px solid #333;
+}
+
+.labs-page:hover,
+.labs-page--current {
+  background-color: #333;
+  color: rgba(255, 255, 255, .75);
+}
+</style>    
+
+
+
+{% comment %} Image gallery {% endcomment %}
+<div class="fluid-container gallery-section row" style="
+	{% if section.settings.background_color != blank %}background-color: {{ section.settings.background_color }}; {% endif %} 
+	{% if section.settings.text_color != blank %}color: {{ section.settings.text_color }}; {% endif %}  ">
+	<div class="{% if section.settings.container != blank %}{{ section.settings.container }}{% endif %}">
+        <div class="content">
+            <div class="rows">
+                <div class="header text-center">
+                    {% if section.settings.title != blank %}
+                        <h2 class="title">{{ section.settings.title | escape }}</h2>          
+                    {% endif %}
+                    {% if section.settings.description != blank %}
+                        <div class="col-xs-12 description">{{section.settings.description }}</div>          
+                    {% endif %}
+                </div>
+            
+
+
+  <div class="masonry masonry--h">
+       {% for block in section.blocks %}
+                       <figure class="masonry-brick masonry-brick--h">
+                                                       <img 
+                                    class="thumb img-responsive show-it image-{% increment count %}"
+                                    src="{{ block.settings.image | img_url: 'master' }}"
+                                    alt="{{ block.settings.image.alt }}" />
+                       </figure>
+         
+                           
+
+                    {% endfor %}
+
+
+
+  
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+
+<script type="text/javascript">
+    $(document).find('#gallery').rebox({ selector: 'a' });
+</script>
+
+<style type="text/css">
+    .gallery-section .header .title, 
+    .gallery-section .header p { {% if section.settings.text_color != blank %}color: {{ section.settings.text_color }};{% endif %} }
+</style>
+
+{% schema %}
+
+    {
+        "name": "Image gallery",
+        "class": "image-gallery",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Gallery title",
+                "default": "Gallery title"
+            },
+            {
+                "type": "richtext",
+                "id": "description",
+                "label": "Gallery description",
+                "default": "<p>Gallery description...</p>"
+            },
+            {
+                "type": "select",
+                "id": "container",
+                "label": "Container width",
+                "default": "container",
+                "options": [
+                    {
+                        "value": "fluid-container",
+                        "label": "Fluid container"
+                    }, 
+                    {
+                        "value": "container",
+                        "label": "Container"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "id": "xs",
+                "label": "Count of images per row on mobile phone.",
+                "default": "6",
+                "options": [
+                    {
+                        "value": "12",
+                        "label": "One image"
+                    }, 
+                    {
+                        "value": "6",
+                        "label": "Two images"
+                    }, 
+                    {
+                        "value": "4",
+                        "label": "Three images"
+                    } 
+                ]
+            },
+            {
+                "type": "select",
+                "id": "sm",
+                "label": "Count of images per row on tablet.",
+                "default": "4",
+                "options": [
+                    {
+                        "value": "6",
+                        "label": "Two images"
+                    }, 
+                    {
+                        "value": "4",
+                        "label": "Three images"
+                    }, 
+                    {
+                        "value": "3",
+                        "label": "Four images"
+                    } 
+                ]
+            },
+            {
+                "type": "select",
+                "id": "md",
+                "label": "Count of images per row on laptop.",
+                "default": "4",
+                "options": [
+                    {
+                        "value": "4",
+                        "label": "Three images"
+                    }, 
+                    {
+                        "value": "3",
+                        "label": "Four images"
+                    }, 
+                    {
+                        "value": "2",
+                        "label": "Six images"
+                    } 
+                ]
+            },
+            {
+                "type": "select",
+                "id": "lg",
+                "label": "Count of images per row on desktop",
+                "default": "3",
+                "options": [
+                    {
+                        "value": "4",
+                        "label": "Three images"
+                    }, 
+                    {
+                        "value": "3",
+                        "label": "Four images"
+                    }, 
+                    {
+                        "value": "2",
+                        "label": "Six images"
+                    } 
+                ]
+            },
+            {
+                "type": "color",
+                "id": "background_color",
+                "label": "Background color",
+                "default": "#fefefe"
+            },
+            {
+                "type": "color",
+                "id": "text_color",
+                "label": "Text color",
+                "default": "#4d4d4d"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "image",
+                "name": "Image",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Image gallery",
+                "category": "BoldizArt",
+                "blocks": [
+                    {
+                        "type": "image"
+                    }
+                ]
+            }
+        ]
+    }
+
+{% endschema %}

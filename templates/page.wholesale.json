@@ -1,0 +1,110 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured_video_BLUfF3": {
+      "type": "featured-video",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "video_url": "https://vimeo.com/1006194069?share=copy",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "text_and_image_FXfkLM": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/IMG_4301.jpg",
+        "image2": "shopify://shop_images/IMG_4302.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>UPCOMING SHOWS</p><p>January 29 to 30th - Cabana</p><p>Feb 4 to 7th - Atlanta Apparel </p><p>February 18 to 20th - Coterie</p><p>March 25 to 27th - Fig Dallas</p><p>May 31 to June 2 - Cabana</p><p>For all inquires please contact Jennifer at </p><p>Jennifer<a href=\"mailto:jennifer@ros-garden.com\" target=\"_blank\">@ros-garden.com</a></p><p>Find us on JOOR: <a href=\"https://www.jooraccess.com/rosgarden\" target=\"_blank\"><em>www.jooraccess.com/rosgarden</em></a></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "501c8696-003e-482e-91bc-5830ce418a82": {
+      "type": "gallery-image",
+      "blocks": {
+        "template--17702985957695__501c8696-003e-482e-91bc-5830ce418a82-168753753029d59e85-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 55,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/IMG_4303.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17702985957695__501c8696-003e-482e-91bc-5830ce418a82-168753753029d59e85-1"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "f0c8d403-4107-489c-beee-cde96c8c5773": {
+      "type": "hero-banner",
+      "settings": {
+        "title": "<p>For more information about becoming a stockist contact us at <a href=\"mailto:info@ros-garden.com\" target=\"_blank\">info@ros-garden.com</a>.</p>",
+        "btn-title": "Find us on joor",
+        "btn-url": "https://www.jooraccess.com/rosgarden"
+      }
+    },
+    "background_video_text_YbdBXX": {
+      "type": "background-video-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "COTERIE NY",
+        "title": "",
+        "text": "<p>September 22-24Booth #7431 For all inquires please contact Jennifer at<a href=\"mailto:jennifer@ros-garden.com\" target=\"_blank\">jennifer@ros-garden.com</a>Find us on JOOR: <a href=\"https://www.jooraccess.com/rosgarden\" target=\"_blank\"><em>www.jooraccess.com/rosgarden</em></a></p><p></p>",
+        "button_label": "",
+        "button_link": "",
+        "video_url": "https://vimeo.com/1006194069?share=copy",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 550
+      }
+    }
+  },
+  "order": [
+    "featured_video_BLUfF3",
+    "main",
+    "text_and_image_FXfkLM",
+    "501c8696-003e-482e-91bc-5830ce418a82",
+    "f0c8d403-4107-489c-beee-cde96c8c5773",
+    "background_video_text_YbdBXX"
+  ]
+}

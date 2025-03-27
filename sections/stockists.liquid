@@ -1,0 +1,352 @@
+<div class="page-width page-width--narrow page-content">
+  {%- render 'breadcrumbs' -%}
+  <header class="section-header">
+    <h1 class="section-header__title">{{ page.title }}</h1>
+  </header>
+  
+<div class="stockists__main-container">
+
+    <div style="display: flex;">
+        <aside>
+            {% for block in section.blocks %}
+                {% if block.type == "category" %}
+                    {% if forloop.first == false %}
+                        </details>
+                        <details data-title="{{ block.settings.title }}">
+                    {% else %}
+                        <details data-title="{{ block.settings.title }}" open>
+                    {% endif %}
+                    <summary><span>{{ block.settings.title }}</span></summary>
+                {% endif %}
+                {% if block.type == "place" %}
+                    <div data-place="{{ block.settings.title }}" class="place">
+                        {{ block.settings.title }}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </aside>
+        <div class="right-side">
+            {% for block in section.blocks %}
+                {% if block.type == "category" %}
+                    {% assign current_category = block.settings.title %}
+                {% endif %}
+                {% if block.type == "place" %}
+                    {% assign current_place = block.settings.title %}
+                {% endif %}
+                {% if block.type == "store" %}
+                    <div data-parent="{{ current_place }}" data-category="{{ current_category }}" class="store">
+                        {% if block.settings.store_name != blank %}
+                            <h3 class="store_name">{{block.settings.store_name}}</h3>
+                        {% endif %}
+                        {% if block.settings.store_address != blank %}
+                            <h4 class="store_address">{{block.settings.store_address}}</h4>
+                        {% endif %}
+                        {% if block.settings.store_phone != blank %}
+                            <h4 class="store_phone">{{block.settings.store_phone}}</h4>
+                        {% endif %}
+                        {% if block.settings.store_website != blank %}
+                            <a  class="store_website" href="{{block.settings.store_url}}" target="_blank">{{block.settings.store_website}}</a>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+    </div>
+
+    
+
+</div>
+</div>
+<style>
+    .stockists__main-container {
+        display: flex;
+        margin: 40px 0;
+        flex-direction: column;
+    }
+    .stockists__main-container aside {
+        border-right: 1px solid #000;
+        min-width: max-content;
+    }
+    .stockists__main-container aside div {
+        padding-left: 35px;
+        margin: 5px 0;
+        font-family: 'Twentieth Century', sans-serif;
+    }
+    .stockists__main-container aside div:last-child {
+        margin-bottom: 10px;
+    }
+    .stockists__main-container aside summary {
+        list-style: none;
+        cursor: pointer;
+        font-size: 14pt;
+        padding-right: 50px;
+        margin-bottom: 10px;
+        font-family: 'Tenor Sans', sans-serif;
+        transition: height 150ms ease-out;
+    }
+    .stockists__main-container aside details > summary::-webkit-details-marker { 
+        display: none; 
+    }
+    .stockists__main-container aside details {
+        margin: 0;
+    }
+    .stockists__main-container details.underline > summary span,
+    .stockists-email__wrapper a {
+        text-decoration: underline;
+    }
+    .stockists__main-container p {
+        margin: 0;
+        line-height: 1.3;
+    }
+    .stockists-email__wrapper {
+        margin-top: 50px;
+    }
+    .stockists__main-container div[data-place="Online"] {
+        display: none;
+    }
+    details[open][data-title="Online"] summary span{
+        text-decoration: underline;
+    }
+    .right-side {
+        display: grid;
+    /* padding: 0 0 0 40px; */
+    /* gap: 75px; */
+    /* flex-wrap: wrap; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    row-gap:35px;
+    width: 100%;
+    padding-left: 25px;
+    }
+    .place {
+        cursor: pointer;
+    }
+    .active {
+        text-decoration: underline;
+    }
+    .store {
+        display: none;
+    }
+    .store.visible {
+        display: block;
+        
+    }
+    .store_name{
+        font-family: 'Twentieth Century', sans-serif;
+        font-size: 19px;
+        line-height: 18px;
+        margin-bottom: 5px;
+      	font-weight: 600;
+    }
+    .store_address ,.store_address p, .store_phone, .store_website{
+        font-family: 'Arial', sans-serif !important;
+        font-size: 14px;
+        line-height: 18px;
+      	letter-spacing: 0;
+      	font-weight:normal;
+    }
+    .store_address , .store_phone{
+        margin-bottom: 4px;
+    }
+    .store_website{
+        text-decoration: underline;
+    }
+    
+    @media (max-width: 1024px) {
+        .stockists__main-container aside div {
+            margin: 7px 0;
+        }
+    }
+    @media (max-width: 900px){
+        .right-side {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media (max-width: 750px){
+        .right-side {
+            grid-template-columns: 1fr 1fr
+        }
+    }
+    @media (max-width: 491px) {
+        .stockists__main-container aside summary {
+            padding-right: 15px;
+            font-size: 13px;
+        }
+        .stockists__main-container aside div{
+            padding-right: 5px;
+            padding-left: 5px;
+            font-size: 13px;
+        }
+        .right-side {
+            padding: 0 0 0 10px;
+            grid-template-columns: 1fr ;
+            gap:5px
+        }
+        .store_name, .store_address, .store_phone, .store_website{
+        font-size: 13px;
+    }
+        .stockists-email__wrapper p {
+            text-align: center;
+        }
+    }
+</style>
+
+
+<script>
+
+    const places = document.querySelectorAll('[data-place]');
+    const stores = document.querySelectorAll('[data-parent]');
+    const details = document.querySelectorAll('details');
+
+    details.forEach(d => d.addEventListener('click', toggleMainPlace));
+
+    function closeOthers(e) {
+        details.forEach(d => {
+            if (e.currentTarget !== d) {
+                d.open = false;
+                d.classList.remove('underline');
+            } else {
+                if (!d.querySelector('div.active')) {
+                    d.classList.add('underline');
+                }
+            }
+        });
+    }
+
+    var lastClicked = null;
+
+    function toggleMainPlace(e){
+        closeOthers(e);
+        e.preventDefault();
+
+        // Apply only to Categories.
+        if (e.target.classList.contains('place')) {
+            return;
+        }
+
+        
+        lastClicked = e.currentTarget.dataset.title;
+        if (e.currentTarget.open && lastClicked !== e.currentTarget.dataset.title) {
+            console.log('[Nox] was open, and was not the last clicked. CLOSING!', { lastClicked, title: e.currentTarget.dataset.title});
+            e.currentTarget.open = false;
+        } else {
+            console.log('[Nox] OPENING!');
+            e.currentTarget.open = true;
+        }
+        
+        console.log('[Nox]', e.currentTarget);
+
+        const currentCategory = e.currentTarget.dataset.title;
+
+        console.log(`[Nox] Searching for ${currentCategory} stores.`);
+        const storesForCategory = document.querySelectorAll(`[data-category="${currentCategory}"]`);
+        console.log(`[Nox] Found ${storesForCategory.length} stores.`, { storesForCategory });
+
+        // Underline category
+        e.currentTarget.classList.add('underline');
+
+        // Remove underline in all others.
+        places.forEach(p => p.classList.remove('active'));
+
+        // Show all stores.
+        stores.forEach(store => {
+            if (store.dataset.category === currentCategory) {
+                store.classList.add('visible');
+            } else {
+                store.classList.remove('visible');
+            }
+        });
+        
+    }
+    
+    // First place as default.
+    clickPlace(places[0], stores);
+
+    places.forEach(place => {
+        place.addEventListener('click', e => clickPlace(e.target, stores));
+    });
+
+    function clickPlace(place, stores) {
+        const current = place.dataset.place;
+        place.parentElement.classList.remove('underline');
+        // place.parent.classList.remove('underline');
+        // Select current
+        places.forEach(p => p.classList.remove('active'));
+        place.classList.add('active');
+        // Show in right side
+        stores.forEach(store => {
+            if (store.dataset.parent === current) {
+                store.classList.add('visible');
+            } else {
+                store.classList.remove('visible');
+            }
+        });
+    }
+</script>
+
+{% schema %}
+{
+  "name": "Stockists",
+  "class": "section-stockists",
+   "max_blocks": 51,
+  "settings": [
+
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Category",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Title",
+          "id": "title"
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "name": "Place",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Title",
+          "id": "title"
+        }
+      ]
+    },
+    {
+      "type": "store",
+      "name": "Store",
+      "settings": [
+        {
+          "type": "text",
+           "id":"store_name",
+           "label":"Store Name"
+        },
+        {
+           "type": "richtext",
+            "id":"store_address",
+            "label":"Address"
+         },
+         {
+            "type": "text",
+            "id":"store_phone",
+            "label":"Phone"
+         },
+         {
+            "type": "text",
+            "id":"store_website",
+            "label":"Website label"
+         },
+        {
+         "type": "url",
+          "label": "Website link",
+          "id": "store_url"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

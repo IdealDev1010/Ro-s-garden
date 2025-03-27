@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "140ee9f7-cb95-4087-abc9-283d52b2cdf6": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "<h1>FINAL SALE</h1>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/Screen_Shot_2024-08-06_at_12.45.40.png",
+        "focal_point": "20% 0",
+        "layout": "right",
+        "height": 450,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 3,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": false,
+        "filter_style": "drawer",
+        "enable_color_swatches": true,
+        "enable_sort": true
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.promotion_title.value }}",
+            "text": "{{ collection.metafields.custom.promotion_text.value }}",
+            "link": "{{ collection.metafields.custom._promotion_link.value }}",
+            "label": "Shop now",
+            "image": "{{ collection.metafields.custom.promotion_image.value }}",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 20,
+            "framed": true
+          }
+        },
+        "41cd1f57-9bad-4561-bdf4-892678222e62": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/66.jpg",
+            "link": "",
+            "width": "100"
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "41cd1f57-9bad-4561-bdf4-892678222e62"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 21,
+        "space_above": true,
+        "space_below": false
+      }
+    },
+    "92130a78-d5d8-4ab2-b6b1-b9f035ad63f6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "home_featured_products": "accessories",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1e9384e7-a757-45c9-a17a-987ddbd3ee15": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16990464180543__1e9384e7-a757-45c9-a17a-987ddbd3ee15-1677087731f1db0d03-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "{{ collection.metafields.custom.column1_image.value }}",
+            "image_width": 650,
+            "title": "{{ collection.metafields.custom.column1_title.value }}",
+            "text": "<p>{{ collection.metafields.custom.column1_text.value }}</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--16990464180543__1e9384e7-a757-45c9-a17a-987ddbd3ee15-1677087731f1db0d03-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "{{ collection.metafields.custom.column2_image.value }}",
+            "image_width": 650,
+            "title": "{{ collection.metafields.custom.column2_title.value }}",
+            "text": "<p>{{ collection.metafields.custom.column2_text.value }}</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--16990464180543__1e9384e7-a757-45c9-a17a-987ddbd3ee15-1677087731f1db0d03-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "{{ collection.metafields.custom.column3_image.value }}",
+            "image_width": 650,
+            "title": "{{ collection.metafields.custom.column3_title.value }}",
+            "text": "<p>{{ collection.metafields.custom.column3_text_ | metafield_tag }}</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16990464180543__1e9384e7-a757-45c9-a17a-987ddbd3ee15-1677087731f1db0d03-0",
+        "template--16990464180543__1e9384e7-a757-45c9-a17a-987ddbd3ee15-1677087731f1db0d03-1",
+        "template--16990464180543__1e9384e7-a757-45c9-a17a-987ddbd3ee15-1677087731f1db0d03-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "9ccc3ad4-def4-4587-8e33-cdca41916685": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "new",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "140ee9f7-cb95-4087-abc9-283d52b2cdf6",
+    "main-collection",
+    "promo-grid",
+    "92130a78-d5d8-4ab2-b6b1-b9f035ad63f6",
+    "1e9384e7-a757-45c9-a17a-987ddbd3ee15",
+    "9ccc3ad4-def4-4587-8e33-cdca41916685"
+  ]
+}

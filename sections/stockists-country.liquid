@@ -1,0 +1,50 @@
+      <script>
+        var paises="{{ section.settings.id_country2 }}";
+      </script>
+
+      <aside>
+        <details data-title="{{ section.settings.id_country }}" open>
+            <summary><span>{{ section.settings.title }}</span></summary>
+                   <script>
+                    for(var i = 0; i < paises.split(',').length; i++){
+                      document.write("<div data-place='"+paises.split(",")[i]+"' class='place'>"+paises.split(",")[i]+"</div>")
+                    }
+                  </script>
+         </details>
+      </aside>
+
+                          
+        
+   
+{% schema %}
+{
+  "name": "Stockists Country",
+    "class": "section-stockists",
+    "settings": [
+         {
+            "type": "text",
+            "label": "Title",
+            "id": "title"
+          },
+          {
+              "type": "text",
+              "id":"id_country",
+              "label":"Id country"
+         },
+      
+          {
+              "type": "textarea",
+              "id":"id_country2",
+              "label":"Places separated by (,). Even the last element."
+         }
+     ],
+        
+  "presets": [
+    {
+      "name": "Stockists Country"
+    }
+  ]
+  
+}
+{% endschema %}
+

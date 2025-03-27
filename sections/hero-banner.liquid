@@ -1,0 +1,72 @@
+<div class="hero-full full-width">
+  <div class="container">
+ <div class="hero-title">
+{{ section.settings.title  }}</div> 
+  </div>
+</div>
+
+<div class="container-btn">
+<a href="{{ section.settings.btn-url  }}" class="button btn hero-btn" target="_blank">
+{{ section.settings.btn-title | escape }}</a>
+</div>
+<style>
+  .container {
+    max-width:1200px !important;
+    margin:0 auto;
+  }
+  .hero-full {
+      background:#174fa4;
+    padding:30px 30px;
+    margin-bottom:30px;
+  }
+  .hero-title {
+    text-align:center;
+    color:white;
+    font-size:30px;
+    line-height:36px;
+  }
+  .container-btn {
+    text-align:center;
+  }
+  .hero-btn {
+    background:#174fa4 !important;
+    margin-bottom:30px;
+    color:white !important;
+  }
+</style>
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": [
+      {
+                "type": "richtext",
+                "id": "title",
+                "label": "title",
+                "default":  "<p>Retailers - Contact Us for more information regarding Summer and Fall 2022 now.</p>"
+            },
+      {
+                "type": "text",
+                "id": "btn-title",
+                "label": "Gallery title",
+                "default": "Connect with us via Joor here"
+            },
+      {
+                "type": "url",
+                "id": "btn-url",
+                "label": "Link"
+            }
+    ],
+    "presets": [
+            {
+                "name": "Hero Text"
+              
+            }
+        ]
+    }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

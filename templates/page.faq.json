@@ -1,0 +1,86 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq-0": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Shipping",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "OUR SHIPPING POLICY",
+            "text": "<p>Please allow 2-3 business days for your order to be processed and shipped.  We do not ship orders on weekends or holidays, including expedited orders. We offer complimentary shipping on all orders over $200.00. For international shipping inquiries please contact <a href=\"mailto:info@ros-garden.com\">info@ros-garden.com</a>.</p>",
+            "image": "<div class=\"table-wrapper\"><table style=\"font-weight:400;\" width=\"721\">\n<tbody>\n<tr>\n<td width=\"237\">\n<p>DOMESTIC SHIPPING RATES</p>\n</td>\n<td width=\"312\"></td>\n<td width=\"172\"></td>\n</tr>\n<tr>\n<td width=\"237\">\n<p>SHIPPING METHOD</p>\n</td>\n<td width=\"312\">\n<p>ESTIMATED DELIVERY</p>\n</td>\n<td width=\"172\">\n<p>COST</p>\n</td>\n</tr>\n<tr>\n<td width=\"237\">\n<p>Ground for orders over $200.00</p>\n</td>\n<td width=\"312\">\n<p>5 - 8 Business Days</p>\n</td>\n<td width=\"172\">\n<p>FREE</p>\n</td>\n</tr>\n<tr>\n<td width=\"237\">\n<p>Ground for orders under $200.00</p>\n</td>\n<td width=\"312\">\n<p>5- 8 Business Days</p>\n</td>\n<td width=\"172\">\n<p>$12.00</p>\n</td>\n</tr>\n<tr>\n<td width=\"237\">\n<p>Express</p>\n</td>\n<td width=\"312\">\n<p>3-4 Business Days</p>\n</td>\n<td width=\"172\">\n<p>$30</p>\n</td>\n</tr>\n<tr>\n<td width=\"237\">\n<p>Overnight</p>\n</td>\n<td width=\"312\">\n<p>1-2 Business Days</p>\n</td>\n<td width=\"172\">\n<p>$35</p>\n</td>\n</tr>\n</tbody>\n</table></div>"
+          }
+        },
+        "faq-3": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Returns",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-4": {
+          "type": "question",
+          "settings": {
+            "title": "OUR RETURN POLICY",
+            "text": "",
+            "image": "\"We hope you loved your Ro's Garden item, but if you need to make a return, you can start the process here:\"<br> <br><a href=\"https://ros-garden.loopreturns.com/#/\" target=\"_blank\"> <img src=\"https://cdn.shopify.com/s/files/1/0671/2623/1359/files/RETURNS_BUTTON.png?v=1717177375\" style=\"max-width:92px; Height:31px \" class=\"size-button\"></a> <br> <br>\nIf you are not fully satisfied with your online purchase we accept the return or exchange of unworn, unwashed or defective items within 30 days of purchase. Unless the merchandise is defective, customers are required to pay shipping costs for all returns and exchanges.<br> <br> We do not accept returns on FINAL SALE items, which are indicated as such on site.<br><br>Refunds will be processed to the original payment method, shipping is non-refundable. If you have any questions regarding your order or return please contact: info@ros-garden.com<br><br><br>Please visit Ros-garden.loopreturns.com or head to our Return Policy page to start you return.<br><br>Please allow up to 21 business days for processing once your return has been received. Thank you for shopping with us!"
+          }
+        },
+        "f82ec969-4460-4fa7-96bb-f816b3f94c77": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Size Chart",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "908f9f4a-bdd6-45e6-86bc-7a8f10a197a1": {
+          "type": "question",
+          "settings": {
+            "title": "Size Chart",
+            "text": "",
+            "image": "<img src=\"https://cdn.shopify.com/s/files/1/0671/2623/1359/files/size-chart.jpg?v=1681235502\" style=\"max-width:100%; \" class=\"size-chart\">\n<br>\nAll measurements are in inches.<br>\nPlease note our clothing has a relaxed fit, if you are in between sizes we recommend sizing down"
+          }
+        }
+      },
+      "block_order": [
+        "faq-0",
+        "faq-1",
+        "faq-3",
+        "faq-4",
+        "f82ec969-4460-4fa7-96bb-f816b3f94c77",
+        "908f9f4a-bdd6-45e6-86bc-7a8f10a197a1"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}
