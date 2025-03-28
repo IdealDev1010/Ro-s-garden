@@ -14,6 +14,7 @@
       "blocks": {
         "image_CidJxa": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -31,11 +32,68 @@
             "focal_point": "center center"
           }
         },
+        "image_3rQTRK": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "SPRING 2025",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "shopify://collections/spring",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/R-G_TORRE_PUEBLO_00830.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "image_344VQG": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Women",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "shopify://collections/women",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/R-G_TORRE_PUEBLO_00792.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "image_bF3pag": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Pajama",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "shopify://collections/pajamas",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/CROCO.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
         "image_RFYMfA": {
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "Accessories",
             "title_size": 80,
             "subheading": "",
             "link": "",
@@ -44,45 +102,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/ISABEL_resize.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "image_BUG89M": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/BRITTANYMIDIDRESS-VIBEKASHORTDRESS_RAJABLUE_PANAJI-ORANGE_CRUISE25_LIFESTYLERGCruise_01314.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "image_Ngy9YE": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Clorinda_Resize.jpg",
+            "image": "shopify://shop_images/GOGO_BAGS_ACCESORIES.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -91,9 +111,10 @@
       },
       "block_order": [
         "image_CidJxa",
-        "image_RFYMfA",
-        "image_BUG89M",
-        "image_Ngy9YE"
+        "image_3rQTRK",
+        "image_344VQG",
+        "image_bF3pag",
+        "image_RFYMfA"
       ],
       "settings": {
         "section_height": "750px",
@@ -110,7 +131,7 @@
         "template--16990464540991__1cfe766e-042c-47ed-8a93-71d36fbe2fb7-1669744053939bb56a-0": {
           "type": "collection",
           "settings": {
-            "collection": "new",
+            "collection": "spring",
             "title": "",
             "focal_point": "center center"
           }
@@ -163,6 +184,91 @@
         "enable_gutter": true
       }
     },
+    "background_image_text_VM9AjF": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "New Collection Alert!",
+        "title": "La Dolce Vita",
+        "text": "<p><a href=\"/collections/spring\" target=\"_blank\" title=\"SPRING\">Think sun-drenched terraces, the scent of lemon blossoms, and the vibrant hues of hand-painted ceramics </a></p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/ROMY_BIMBA_SHORT_DRESS__PALERMO_SICILY_PRINT____SPRING_D1_LIFESTYLE_ARGR-G_TORRE_PUEBLO_00256.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 750,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "featured_collection_jchnGn": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best sellers",
+        "home_featured_products": "spring",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "hotspots_NnGkMk": {
+      "type": "hotspots",
+      "blocks": {
+        "product_Pd8VWY": {
+          "type": "product",
+          "settings": {
+            "featured_product": "romy-short-dress-tiffany-blue",
+            "vertical": 25,
+            "horizontal": 25
+          }
+        },
+        "product_KbQA7N": {
+          "type": "product",
+          "settings": {
+            "featured_product": "romy-short-dress-tiffany-blue",
+            "vertical": 75,
+            "horizontal": 65
+          }
+        },
+        "product_49mnj8": {
+          "type": "product",
+          "settings": {
+            "featured_product": "romy-short-dress-tiffany-pink",
+            "vertical": 50,
+            "horizontal": 50
+          }
+        }
+      },
+      "block_order": [
+        "product_Pd8VWY",
+        "product_KbQA7N",
+        "product_49mnj8"
+      ],
+      "settings": {
+        "title": "Shop the look",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "image": "shopify://shop_images/ROMY_TIFFANY_BLUE_BEA_DRESS_BYRON_PRINT.jpg",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "tag",
+        "hotspot_color": "#000000"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Pajamas",
+        "home_featured_products": "pajamas",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
@@ -176,8 +282,8 @@
             "cta_link1": "shopify://collections/new",
             "cta_text2": "",
             "cta_link2": "shopify://collections/women",
-            "image": "shopify://shop_images/RG_Cruise_01822.jpg",
-            "video_url": "https://vimeo.com/1029719375",
+            "image": "shopify://shop_images/ROMY_SHORT_DRESS____TIFFANY_PRINT____SPRING_D1_LIFESTYLE_ARGR-G_TORRE_PUEBLO_01470.jpg",
+            "video_url": "https://vimeo.com/1070338969",
             "width": "50",
             "height": 800,
             "text_size": 100,
@@ -185,7 +291,7 @@
             "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
-            "framed": true
+            "framed": false
           }
         },
         "promo-1": {
@@ -198,7 +304,7 @@
             "cta_link1": "shopify://collections/pajamas",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/RO_S_GARDEN_Stories_Enero_25.zip_-_106.png",
+            "image": "shopify://shop_images/R-G_TORRE_PUEBLO_00382.jpg",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -207,7 +313,7 @@
             "focal_point": "80% 50%",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
-            "framed": true
+            "framed": false
           }
         }
       },
@@ -293,48 +399,6 @@
         "space_below": false
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Popular picks",
-        "home_featured_products": "sale",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Rich text"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>At Ro's Garden, we create unique pieces, inspired by our travels to India and our love of comfort and chic combined. We love a little bit of flair and we pay close attention to design details like tassels and ribbon accents, as you will see in our Fall 2022 collection.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "disabled": true,
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": true
-      }
-    },
     "promo-grid2": {
       "type": "promo-grid",
       "blocks": {
@@ -401,13 +465,6 @@
         "space_below": true
       }
     },
-    "1678307892df334980": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "space_around": true
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "disabled": true,
@@ -422,62 +479,6 @@
         "view_all": true,
         "blog_image_size": "wide",
         "divider": false
-      }
-    },
-    "4c06b0bd-c0c6-4af0-a714-b937aae81d55": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16990464540991__4c06b0bd-c0c6-4af0-a714-b937aae81d55-167941111972bd5d4e-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<h6>Follow us <a href=\"https://www.instagram.com/rosgardenofficial/\" title=\"https://www.instagram.com/rosgardenofficial/\">@rosgardenofficial</a></h6>"
-          }
-        },
-        "template--16990464540991__4c06b0bd-c0c6-4af0-a714-b937aae81d55-167941111972bd5d4e-0": {
-          "type": "heading",
-          "settings": {
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16990464540991__4c06b0bd-c0c6-4af0-a714-b937aae81d55-167941111972bd5d4e-1",
-        "template--16990464540991__4c06b0bd-c0c6-4af0-a714-b937aae81d55-167941111972bd5d4e-0"
-      ],
-      "settings": {
-        "align_text": "left",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "image_compare_TUYKEn": {
-      "type": "image-compare",
-      "blocks": {
-        "image_hNGdKV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ROS_GARDEN_CRUISE_0601.jpg"
-          }
-        },
-        "image_7D3piG": {
-          "type": "image",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "image_hNGdKV",
-        "image_7D3piG"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "heading_position": "left",
-        "fullwidth": true,
-        "slider_style": "classic",
-        "height": 490,
-        "color": "#ffffff"
       }
     },
     "f3ce652f-3dab-43fb-88ca-b11db74a4b79": {
@@ -514,15 +515,14 @@
   "order": [
     "slideshow",
     "1cfe766e-042c-47ed-8a93-71d36fbe2fb7",
+    "background_image_text_VM9AjF",
+    "featured_collection_jchnGn",
+    "hotspots_NnGkMk",
+    "featured-collection",
     "promo-grid",
     "e20491fd-acc8-40c5-8de6-1809a926b8cf",
-    "featured-collection",
-    "rich-text",
     "promo-grid2",
-    "1678307892df334980",
     "blog-posts",
-    "4c06b0bd-c0c6-4af0-a714-b937aae81d55",
-    "image_compare_TUYKEn",
     "f3ce652f-3dab-43fb-88ca-b11db74a4b79"
   ]
 }

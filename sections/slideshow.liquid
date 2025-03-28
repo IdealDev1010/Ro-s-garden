@@ -225,51 +225,53 @@
               {%- endif -%}
 
               {%- if hero_text -%}
-                <div class="hero__text-wrap">
-                  <div class="page-width">
-                    <div class="hero__text-content {{ block.settings.text_align }}">
-                      <div class="hero__text-shadow">
-                        {%- unless block.settings.top_subheading == blank -%}
-                          <div class="hero__top-subtitle">
-                            <div class="animation-cropper"><div class="animation-contents">
-                              {{ block.settings.top_subheading | escape }}
-                            </div></div>
-                          </div>
-                        {%- endunless -%}
-                        {%- unless block.settings.title == blank -%}
-                          <h2 class="h1 hero__title">
-                            <div class="animation-cropper"><div class="animation-contents">
-                            {{ block.settings.title | newline_to_br }}
-                            </div></div>
-                          </h2>
-                        {%- endunless -%}
-                        {%- if block.settings.subheading or block.settings.link or block.settings.link_2 -%}
-                          {%- unless block.settings.subheading == blank -%}
-                            <div class="hero__subtitle">
+                <a href="{{ block.settings.link_2 }}">
+                  <div class="hero__text-wrap">
+                    <div class="page-width">
+                      <div class="hero__text-content {{ block.settings.text_align }}">
+                        <div class="hero__text-shadow">
+                          {%- unless block.settings.top_subheading == blank -%}
+                            <div class="hero__top-subtitle">
                               <div class="animation-cropper"><div class="animation-contents">
-                                {{ block.settings.subheading | escape }}
+                                {{ block.settings.top_subheading | escape }}
                               </div></div>
                             </div>
                           {%- endunless -%}
-                          {%- if block.settings.link_text != blank or block.settings.link_text_2 != blank -%}
-                            <div class="hero__link">
-                              {%- if block.settings.link_text != blank -%}
-                                <a href="{{ block.settings.link }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
-                                  {{ block.settings.link_text }}
-                                </a>
-                              {%- endif -%}
-                              {%- if block.settings.link_text_2 != blank -%}
-                                <a href="{{ block.settings.link_2 }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
-                                  {{ block.settings.link_text_2 }}
-                                </a>
-                              {%- endif -%}
-                            </div>
+                          {%- unless block.settings.title == blank -%}
+                            <h2 class="h1 hero__title">
+                              <div class="animation-cropper"><div class="animation-contents">
+                              {{ block.settings.title | newline_to_br }}
+                              </div></div>
+                            </h2>
+                          {%- endunless -%}
+                          {%- if block.settings.subheading or block.settings.link or block.settings.link_2 -%}
+                            {%- unless block.settings.subheading == blank -%}
+                              <div class="hero__subtitle">
+                                <div class="animation-cropper"><div class="animation-contents">
+                                  {{ block.settings.subheading | escape }}
+                                </div></div>
+                              </div>
+                            {%- endunless -%}
+                            {%- if block.settings.link_text != blank or block.settings.link_text_2 != blank -%}
+                              <div class="hero__link">
+                                {%- if block.settings.link_text != blank -%}
+                                  <a href="{{ block.settings.link }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
+                                    {{ block.settings.link_text }}
+                                  </a>
+                                {%- endif -%}
+                                {%- if block.settings.link_text_2 != blank -%}
+                                  <a href="{{ block.settings.link_2 }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
+                                    {{ block.settings.link_text_2 }}
+                                  </a>
+                                {%- endif -%}
+                              </div>
+                            {%- endif -%}
                           {%- endif -%}
-                        {%- endif -%}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </a>
               {%- endif -%}
             </div>
           {%- endfor -%}

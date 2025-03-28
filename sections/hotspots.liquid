@@ -7,11 +7,19 @@
     }
 
     .{{ section.id }} .hotspot__button--{{ block.id }} {
-      left: {{ block.settings.horizontal }}%;
+      right: {{ block.settings.horizontal }}%;
       top: {{ block.settings.vertical }}%;
       background-color: {{ section.settings.hotspot_color }};
       animation: pulse 2s infinite;
     }
+
+    .hotspots__buttons > .hotspot__button:first-child {
+      right: 25% !important;
+      top: 40% !important;
+      background-color: {{ section.settings.hotspot_color }};
+      animation: pulse 2s infinite;
+    }
+
 
     .{{ section.id }} .hotspot__button--{{ block.id }}:hover {
       {% if bgBrightness < 125 %}

@@ -22,16 +22,6 @@
           "type": "price",
           "settings": {}
         },
-        "db1e7ac2-6e16-4f08-968c-6fa0d21f498e": {
-          "type": "shopify://apps/product-reviews/blocks/star_rating/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -98,7 +88,6 @@
       "block_order": [
         "description",
         "price",
-        "db1e7ac2-6e16-4f08-968c-6fa0d21f498e",
         "separator",
         "variant_picker",
         "sales_point",
@@ -117,22 +106,13 @@
         "thumbnail_position": "beside",
         "thumbnail_height": "fixed",
         "thumbnail_arrows": true,
-        "mobile_layout": "partial",
+        "mobile_layout": "full",
         "enable_video_looping": true,
         "product_video_style": "muted"
       }
     },
     "16770881073592c381": {
       "type": "apps",
-      "blocks": {
-        "9200c3ca-ef12-40b8-b902-670d3768ff6c": {
-          "type": "shopify://apps/product-reviews/blocks/reviews/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "9200c3ca-ef12-40b8-b902-670d3768ff6c"
-      ],
       "settings": {
         "full_width": false,
         "space_around": true
@@ -235,7 +215,6 @@
         "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
         "button_label": "",
         "button_link": "",
-        "image": "shopify://shop_images/Duets_318107_1.jpg",
         "focal_point": "center",
         "layout": "left",
         "height": 650,

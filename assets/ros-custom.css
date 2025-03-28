@@ -1,0 +1,39 @@
+/* header */
+.megamenu__colection-image {
+    padding-bottom: 100% !important
+}
+.h1,.h2,.h3,h1,h2,h3, .site-nav__link {
+    font-family: 'Sweet Sans Pro', sans-serif !important;
+}
+
+body {
+  font-family:  "Ivar Headline", serif !important;
+}
+.collection-item .collection-image {
+    border-radius: 25px;
+}
+
+.grid-product__content .grid-product__title {
+    text-transform: capitalize !important;
+    letter-spacing: 0.1em !important;
+}
+
+.grid-product__content .image-wrap {
+    padding-bottom: 150% !important;
+}
+
+.background-media-text__text {
+    background-color: transparent !important;
+    color: #d59323 !important;
+    width: 450px !important;
+    letter-spacing: 0.1em;
+
+}
+
+.background-media-text__subtext a {
+    color: #fff;
+}
+
+.parallax-image img {
+    object-fit: contain;
+}
