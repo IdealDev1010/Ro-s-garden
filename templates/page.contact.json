@@ -17,14 +17,14 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "title1": "FOR WHOLESALE INQUIRIES",
-        "title2": "HAVE A QUESTION?",
-        "text1": "<a href=\"mailto:info@ros-garden.com\" title=\"mailto:info@ros-garden.com\">info@ros-garden.com</a>",
-        "text2": "For questions or comments about our products and services, please do get in touch. We love to hear from our clients! ",
-        "title": "Contact us",
-        "text": "",
+        "title1": "",
+        "title2": "",
+        "text1": "",
+        "text2": "",
+        "title": "GET In touch!",
+        "text": "<p><br/>info@ros-garden.com <br/>Customer Service Hours: Monday - Friday: 9:00 am - 5:00 pm PST</p>",
         "show_phone": false,
-        "narrow_column": true
+        "narrow_column": false
       }
     },
     "ee866f23-d88c-4fa3-b00b-3f86dcd46b85": {

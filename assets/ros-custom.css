@@ -36,3 +36,7 @@ body {
 .background-media-text__container .parallax-image img {
     object-fit: contain;
 }
+
+.site-footer {
+    padding-bottom: 30px !important;
+}

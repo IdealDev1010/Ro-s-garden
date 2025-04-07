@@ -134,8 +134,8 @@
             "type": "logo_social",
             "settings": {
               "logo": "shopify://shop_images/ros.png",
-              "desktop_logo_height": 50,
-              "container_width": 25
+              "desktop_logo_height": 60,
+              "container_width": 21
             }
           },
           "1494301487049": {
@@ -143,7 +143,7 @@
             "settings": {
               "show_footer_title": false,
               "menu": "footer",
-              "container_width": 30
+              "container_width": 26
             }
           },
           "1494292487693": {
