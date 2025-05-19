@@ -34,9 +34,22 @@ body {
     color: #fff;
 }
 .background-media-text__container .parallax-image img {
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .site-footer {
     padding-bottom: 30px !important;
+}
+
+.hero__text-shadow {
+  max-width: 500px !important;
+}
+
+.grid-product__content .grid__image-ratio img.grid__image-contain {
+  object-fit: cover !important;
+}
+
+
+.grid-product__content .grid-product__secondary-image img {
+  object-fit: cover !important;
 }

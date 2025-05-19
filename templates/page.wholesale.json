@@ -18,6 +18,61 @@
         "divider": false
       }
     },
+    "501c8696-003e-482e-91bc-5830ce418a82": {
+      "type": "gallery-image",
+      "blocks": {
+        "template--17702985957695__501c8696-003e-482e-91bc-5830ce418a82-168753753029d59e85-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Introducing Our Resort Collection - Pre-Order November & December Delivieries",
+            "title_size": 55,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/1.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "image_C4zgaW": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Introduction Our Next Collection",
+            "title_size": 80,
+            "subheading": "Step into the future of fashion with our upcoming collection. Created exclusively for our wholesale partners who value craftsmanship, innovation, and timeless design.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/2.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17702985957695__501c8696-003e-482e-91bc-5830ce418a82-168753753029d59e85-1",
+        "image_C4zgaW"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -26,12 +81,12 @@
     "text_and_image_FXfkLM": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify://shop_images/IMG_4301.jpg",
-        "image2": "shopify://shop_images/IMG_4302.jpg",
+        "image": "shopify://shop_images/C_dd1d06aa-c69c-49be-b3a5-7023f96eca5c.jpg",
+        "image2": "shopify://shop_images/a_30215a2d-a3d7-4643-9089-0023e215cf63.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "",
-        "text": "<p>UPCOMING SHOWS</p><p style=\"text-decoration: line-through;\">January 29 to 30th - Cabana</p><p style=\"text-decoration: line-through\">Feb 4 to 7th - Atlanta Apparel </p><p style=\"text-decoration: line-through\">February 18 to 20th - Coterie</p><p style=\"text-decoration: line-through\">March 25 to 27th - Fig Dallas</p><p>May 31 to June 2 - Cabana</p><p>For all inquires please contact Jennifer at </p><p>Jennifer<a href=\"mailto:jennifer@ros-garden.com\" target=\"_blank\">@ros-garden.com</a></p><p>Find us on JOOR: <a href=\"https://www.jooraccess.com/rosgarden\" target=\"_blank\"><em>www.jooraccess.com/rosgarden</em></a></p>",
+        "text": "<p>UPCOMING SHOWS</p><p style=\"text-decoration: line-through;\">January 29 to 30th - Cabana</p><p style=\"text-decoration: line-through\">Feb 4 to 7th - Atlanta Apparel </p><p style=\"text-decoration: line-through\">February 18 to 20th - Coterie</p><p style=\"text-decoration: line-through\">March 25 to 27th - Fig Dallas</p><p>May 31 to June 2 - Cabana</p><p>September 14 to 16 - Coterie</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -40,15 +95,15 @@
         "divider": false
       }
     },
-    "501c8696-003e-482e-91bc-5830ce418a82": {
+    "gallery_image_g36gyz": {
       "type": "gallery-image",
       "blocks": {
-        "template--17702985957695__501c8696-003e-482e-91bc-5830ce418a82-168753753029d59e85-1": {
+        "image_cNpMPp": {
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
-            "title_size": 55,
+            "title": "Coming soon",
+            "title_size": 80,
             "subheading": "",
             "link": "",
             "link_text": "",
@@ -56,7 +111,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/SHOPIFY_STAND_copy.jpg",
+            "image": "shopify://shop_images/3.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -64,23 +119,105 @@
         }
       },
       "block_order": [
-        "template--17702985957695__501c8696-003e-482e-91bc-5830ce418a82-168753753029d59e85-1"
+        "image_cNpMPp"
       ],
       "settings": {
         "section_height": "650px",
         "mobile_height": "auto",
         "parallax": true,
         "style": "bars",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 5
       }
     },
-    "f0c8d403-4107-489c-beee-cde96c8c5773": {
-      "type": "hero-banner",
+    "text_and_image_zUg9Kf": {
+      "type": "text-and-image",
       "settings": {
-        "title": "<p>For more information about becoming a stockist contact us at <a href=\"mailto:info@ros-garden.com\" target=\"_blank\">info@ros-garden.com</a>.</p>",
-        "btn-title": "Find us on joor",
-        "btn-url": "https://www.jooraccess.com/rosgarden"
+        "image": "shopify://shop_images/B_17e219be-99c4-4604-9493-e373553ea2cd.jpg",
+        "image_width": 570,
+        "subtitle": "",
+        "title": "See you at the Beach!",
+        "text": "Ro's Garden Resort '26 \nCabana Miami - Booth #606 -    \nMay 31st -June 2nd",
+        "button_label": "Find us on joor",
+        "button_link": "https://www.jooraccess.com/r/storefront/858845",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "lookbook_8qyMKi": {
+      "type": "lookbook",
+      "blocks": {
+        "image_YY3Axf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W._IVY_MAXI_DRESS___ALAQUA_PRINT-_BLUE_CW____FALL_25Ro_s_Day_24634.jpg"
+          }
+        },
+        "image_8RbK6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JOCELYN_MAXI_DRESS___PARO_PRINT-_PINK_CW____FALL_25Ro_s_Day_12266.jpg"
+          }
+        },
+        "image_iNLacQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ANGELA_MAXI_DRESS___KALIM_PRINT-_GREY_CW____FALL_25Ro_s_Day_13015.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_YY3Axf",
+        "image_8RbK6b",
+        "image_iNLacQ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".gallery-section {padding-top: 50px;}"
+      ],
+      "settings": {
+        "title": "Select Collection highlight",
+        "description": "",
+        "container": "container",
+        "xs": "6",
+        "sm": "4",
+        "md": "4",
+        "lg": "3",
+        "background_color": "#fefefe",
+        "text_color": "#000000"
+      }
+    },
+    "image_compare_NnqFPY": {
+      "type": "image-compare",
+      "blocks": {
+        "image_BqAG6Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JESSE_SHORT_DRESS___TIGER-BROWN_CW____FALL_25Ro_s_Day_11276.jpg"
+          }
+        },
+        "image_6ANNCt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W._IVY_MAXI_DRESS___ALAQUA_PRINT-_BLUE_CW____FALL_25Ro_s_Day_24634.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_BqAG6Y",
+        "image_6ANNCt"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "fullwidth": true,
+        "slider_style": "classic",
+        "height": 700,
+        "color": "#ffffff"
       }
     },
     "background_video_text_YbdBXX": {
@@ -97,14 +234,148 @@
         "layout": "left",
         "height": 550
       }
+    },
+    "gallery_Hp7WJC": {
+      "type": "gallery",
+      "blocks": {
+        "image_cgKgkg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JESSE_SHORT_DRESS___TIGER-GREEN_CW____FALL_25Ro_s_Day_11405.jpg"
+          }
+        },
+        "image_dcRVYA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ANGELA_MAXI_DRESS___KALIM_PRINT-_BORDEAUX_CW____FALL_25Ro_s_Day_11474_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_cgKgkg",
+        "image_dcRVYA"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "container": "container",
+        "xs": "6",
+        "sm": "4",
+        "md": "4",
+        "lg": "3",
+        "background_color": "#fefefe",
+        "text_color": "#4d4d4d"
+      }
+    },
+    "f0c8d403-4107-489c-beee-cde96c8c5773": {
+      "type": "hero-banner",
+      "disabled": true,
+      "settings": {
+        "title": "<p>For more information about becoming a stockist contact us at <a href=\"mailto:info@ros-garden.com\" target=\"_blank\">info@ros-garden.com</a>.</p>",
+        "btn-title": "Find us on joor",
+        "btn-url": "https://www.jooraccess.com/rosgarden"
+      }
+    },
+    "text_and_image_3Fdtkz": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/LOGO.jpg",
+        "image_width": 440,
+        "subtitle": "",
+        "title": "Find US",
+        "text": "<p>For more information about becoming a stockist contact us at <strong>info@ros-garden.com</strong></p>",
+        "button_label": "Find us on joor",
+        "button_link": "https://www.jooraccess.com/r/storefront/858845",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "rich_text_fXpp3h": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C9rGcQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Step into Roberta Freymann’s World..."
+          }
+        },
+        "text_Ad7WW7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><strong>Step into Roberta Freymann’s World</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C9rGcQ",
+        "text_Ad7WW7"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false,
+        "text_transform": false
+      }
+    },
+    "17468225351d0ff177": {
+      "type": "apps",
+      "blocks": {
+        "moast_shoppable_video_ugc_carousel_BiQCzE": {
+          "type": "shopify://apps/moast-shoppable-video-ugc/blocks/carousel/1ac7547b-5443-446c-868c-7fab4566ee16",
+          "settings": {
+            "feed": "",
+            "product": "",
+            "buy_button_action": "add",
+            "sort": "video",
+            "slide_size": "250",
+            "slide_rounding": "20",
+            "padding_top": 40,
+            "padding_bottom": 40,
+            "slide_spacing": 16,
+            "show_likes": true,
+            "show_share": true,
+            "default_mute": false,
+            "show_products": false,
+            "autoplay_mode": "all",
+            "autoscroll_duration": 0,
+            "click_action": "fullscreen",
+            "float_location": "bottom_right",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "moast_shoppable_video_ugc_carousel_BiQCzE"
+      ],
+      "custom_css": [
+        ".index-section {margin: 0 !important;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "featured_video_BLUfF3",
+    "501c8696-003e-482e-91bc-5830ce418a82",
     "main",
     "text_and_image_FXfkLM",
-    "501c8696-003e-482e-91bc-5830ce418a82",
+    "gallery_image_g36gyz",
+    "text_and_image_zUg9Kf",
+    "lookbook_8qyMKi",
+    "image_compare_NnqFPY",
+    "background_video_text_YbdBXX",
+    "gallery_Hp7WJC",
     "f0c8d403-4107-489c-beee-cde96c8c5773",
-    "background_video_text_YbdBXX"
+    "text_and_image_3Fdtkz",
+    "rich_text_fXpp3h",
+    "17468225351d0ff177"
   ]
 }

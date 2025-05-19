@@ -1,3 +1,14 @@
+ 
+{% style %}
+ .rich-text-section {
+  margin: 40px 0;
+ }
+
+ .text_capitalize {
+  text-transform: capitalize !important;
+ }
+{% endstyle %}
+
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 <div class="text-{{ section.settings.align_text }} page-width{% if section.settings.narrow_column %} page-width--narrow{% endif %}">
@@ -5,7 +16,7 @@
     <div class="theme-block" {{ block.shopify_attributes }}>
       {%- case block.type -%}
         {%- when 'heading' -%}
-          <h2>{{ block.settings.title | escape }}</h2>
+          <h2 class="{% if section.settings.text_transform == false %}text_capitalize{% endif %}">{{ block.settings.title | escape }}</h2>
         {%- when 'page' -%}
           <div class="rte">
             {%- if block.settings.page_text != blank -%}
@@ -40,7 +51,7 @@
 {% schema %}
 {
   "name": "t:sections.rich-text.name",
-  "class": "index-section",
+  "class": "rich-text-section",
   "settings": [
     {
       "type": "select",
@@ -73,6 +84,12 @@
       "id": "divider",
       "label": "t:sections.rich-text.settings.divider.label",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "text_transform",
+      "label": "Text uppercase",
+      "default": true
     }
   ],
   "blocks": [

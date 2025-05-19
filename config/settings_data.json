@@ -55,7 +55,7 @@
     "icon_linecaps": "miter",
     "quick_shop_enable": true,
     "quick_shop_text": "Quick view",
-    "product_grid_image_size": "natural",
+    "product_grid_image_size": "portrait",
     "product_hover_image": true,
     "enable_swatches": false,
     "enable_product_reviews": false,
@@ -76,7 +76,8 @@
     "social_vimeo_link": "",
     "favicon": "shopify://shop_images/rose.png",
     "predictive_image_size": "square",
-    "show_breadcrumbs": false,
+    "show_breadcrumbs": true,
+    "show_breadcrumbs_collection_link": true,
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -273,6 +274,11 @@
     "blocks": {
       "13549935337288218858": {
         "type": "shopify://apps/labeler-product-labels/blocks/app-embed/38a5b8ec-f58a-4fa4-8faa-69ddd0f10a60",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
       }
